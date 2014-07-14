@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>Mike - Projects</title>
+    <title>Mike - Jobprobe </title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -19,9 +19,9 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/main.css" rel="stylesheet">
 
+
     <link rel="icon" href="assets/img/mp.ico" sizes="16x16 32x32 48x48 64x64 128x128"
     type="image/vnd.microsoft.icon">
-
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="assets/js/hover.zoom.js"></script>
@@ -60,39 +60,158 @@
     </div>
 	
 	
-	<!-- +++++ Projects Section +++++ -->
+	<!-- +++++ Jobprobe Projects Section +++++ -->
 	
 	<div class="container pt">
-		<div class="row mt">
-			<div class="col-lg-6 col-lg-offset-3 centered">
-				<h3>PROJECTS</h3>
-			</div>
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <a id="jobprobe"><h3>JOBPROBE</h3></a>
+                </div>
+            </div><!-- /row -->
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <h3><small>A Graphical Display of Distributed Computing</small></h3>
+                    <hr>
+                </div>
+            </div><!-- /row -->
+
+	    <div class="row mt">
+		<div class="col-sm-5 col-sm-offset-1">
+                    <blockquote>
+                        <p>
+                            "We use Jobprobe every day." 
+                            <footer> Tom Crockett, Senior Research Associate/Manager, 
+                                     High Performance Computing, College of William &amp; Mary
+                            </footer>
+                        </p>
+                    </blockquote>
+
+                        <p>
+			    The Jobprobe is a multi-platform desktop application that 
+                            provides a dynamic graphical display of
+                            computation processes ("jobs") running on a computer 
+                            cluster. The back-end, written in C, is a daemon process that 
+                            periodically queries the job scheduler for its list of jobs. This
+                            job data is sent up to a server, written in Java, and then sent out to
+                            instances of the client, a Java Swing GUI. It is similar to 
+                            <a href=#nodeprobe> the Nodeprobe </a>.
+                        </p>
+
+                        <p>
+                            The image on this page is a screenshot of the Jobprobe client showing
+                            the jobs running on 
+                            <a href="http://www.hpc.wm.edu/SciClone/Home">
+                                William &amp; Mary's SciClone Cluster</a>. 
+                            The top part of the display shows what jobs are running on which nodes,
+                            each node in the cluster represented by a square.
+                            The bottom part is a sortable list of all the jobs running on the cluster.
+                        </p>
+
+                        <p>
+                            The Jobprobe was originally developed by Andrew Otto at William &amp; Mary 
+                            in 2004. By the time I got to it in 2012, the Jobprobe was dead.
+                            My first job was porting the backend from Sparc/Solaris to x86/Linux. 
+                            This was largely a problem of swapping function calls, endianness, and other 
+                            eccentricities of platform specificity. After the port, I added features to the 
+                            client like column sorting and authentication. I also swapped around some of the 
+                            icon assignment logic in the server.
+                        </p>
+
+                        <p>
+                            The Jobprobe provides an enormous amount of utility to users of clusters. 
+                            Cluster computing isn't new, but given its birth in the 90s it's still
+                            young enough that cluster tool development is a productive enterprise.
+                        </p>
+
 		</div>
-		<div class="row mt centered">	
-			<div class="col-lg-4">
-				<a class="zoom green" href="jobprobe.html"><img class="img-responsive" src="assets/img/portfolio/jobprobe.png" alt="" /></a>
-				<p>JOBPROBE</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="nodeprobe.html"><img class="img-responsive" src="assets/img/portfolio/nodeprobe.png" alt="" /></a>
-				<p>NODEPROBE</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="billboard.html"><img class="img-responsive" src="assets/img/portfolio/billboard.png" alt="" /></a>
-				<p>BILLBOARD</p>
-			</div>
-		</div><!-- /row -->
-		<div class="row mt centered">	
-			<div class="col-lg-4">
-				<a class="zoom green" href="jstation.html"><img class="img-responsive" src="assets/img/fighterOrdnance.jpg" alt="" /></a>
-				<p>JSTATION</p>
-			</div>
-			<div class="col-lg-4">
-				<a class="zoom green" href="posterankr.html"><img class="img-responsive" src="assets/img/portfolio/posterankr.png" alt="" /></a>
-				<p>POSTERANKR</p>
-			</div>
-		</div><!-- /row -->
+		<div class="col-sm-5 col-sm-offset-1 centered">
+		    <p><img class="img-responsive" src="assets/img/portfolio/jobprobe.png" alt=""></p>
+		</div>
+            </div><!-- /row -->
 	</div><!-- /container -->
+
+        <!-- +++++ Nodeprobe +++++ -->
+	
+	<div class="container pt">
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <a id="nodeprobe"><h3>NODEPROBE</h3></a>
+                </div>
+            </div><!-- /row -->
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <h3><small>A Graphical Display of Node Data</small></h3>
+                    <hr>
+                </div>
+            </div><!-- /row -->
+
+	    <div class="row mt">
+		<div class="col-sm-5 col-sm-offset-1">
+                    <blockquote>
+                        <p>
+                            "We use Nodeprobe every day." 
+                            <footer> Tom Crockett, Senior Research Associate/Manager, 
+                                     High Performance Computing, College of William &amp; Mary
+                            </footer>
+                        </p>
+                    </blockquote>
+                        <p>
+			    The Nodeprobe is a multi-platform desktop application that 
+                            provides a dynamic graphical display of node data statistics. 
+                            The back-end, written in C, is a daemon process that runs on 
+                            every node and gathers information about cpu and memory usage,
+                            paging, interrupts, load averages, disk I/O, and disk space. This
+                            data is sent up to a server, written in Java, and then sent out to
+                            instances of the client, a Java Swing GUI. It is similar to 
+                            <a href=#jobprobe> the Jobprobe </a>.
+                        </p>
+
+                        <p>
+                            The image on this page is a screenshot of the Nodeprobe client showing
+                            the cluster of nodes on
+                            <a href="http://www.hpc.wm.edu/SciClone/Home">
+                                William &amp; Mary's SciClone Cluster</a>. 
+                            Each square is an individual node.
+                        </p>
+
+                        <p>
+                            The Nodeprobe was originally developed by Andrew Otto at William &amp; Mary 
+                            in 2004. By the time I got to it in 2013, the Nodeprobe was dead.
+                            My first job was porting the backend from Sparc/Solaris to x86/Linux. 
+                            On Solaris, node statistics were collected using system calls. The Linux 
+                            paradigm requires you read from /proc to get the same data. 
+                        </p>
+
+                        <p>
+                            The Linux port was challenging. Since the daemon ran on every node, performance
+                            considerations were of critical importance. During development I always compiled
+                            timing code so I could see whether or not I was actively reducing execution 
+                            time. I learned a lot about the peculiarities of the /proc pseudo-filesystem, 
+                            and found that reading /proc on brand-new Linux machines is slower than making 
+                            system calls on 10-year-old Sun hardware. I also learned about LKMs, having to
+                            use them with the lm-sensors library to access hardware temperature sensor data.
+                        </p>
+
+                        <p>
+                            The Nodeprobe provides an enormous amount of utility. It can tell you if a node
+                            has a broken fan, if an application is page thrashing, if a node is out of memory,
+                            and much much more.
+                        </p>
+
+		</div>
+		<div class="col-sm-5 col-sm-offset-1 centered">
+                    
+		    <p><img class="img-responsive" src="assets/img/portfolio/nodeprobe.png" alt=""></p>
+                    <p>
+                        I will shortly be working on folding the Jobprobe into the Nodeprobe.
+                        As of right now, the two applications are used concurrently, but it
+                        should be possible to integrated the Jobprobe as a "Jobs" tab in the 
+                        Nodeprobe.
+                    </p>
+		</div>
+            </div><!-- /row -->
+	</div><!-- /container -->
+
 	
 
         <!-- +++++ Footer Section +++++ -->
@@ -101,11 +220,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4">
-					<h4>Links</h4>
+                                    <h4>My Links</h4>
 					<p>
-						<a href="https://github.com/mmpozulp">Github</a><br/>
-						<a href="https://en.wikipedia.org/wiki/Special:Contributions/Mmpozulp">Wikipedia</a><br/>
-						<a href="https://facebook.com/mike.pozulp">Facebook</a>
+                                            <a href="https://github.com/mmpozulp"><i class="fa fa-github-square"></i>Github</a><br/>
+                                            <a href="https://www.linkedin.com/in/mikepozulp"><i class="fa fa-linkedin-square"></i>Linkedin</a><br/>
+                                            <a href="https://facebook.com/mike.pozulp"><i class="fa fa-facebook-square"></i>Facebook</a><br/>
+                                            <a href="https://en.wikipedia.org/wiki/Special:Contributions/Mmpozulp"><i class="fa fa-wordpress"></i>Wikipedia</a><br/>
 					</p>
 				</div><!-- /col-lg-4 -->
 			
@@ -113,7 +233,7 @@
 		
 		</div>
 	</div>
-	
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
