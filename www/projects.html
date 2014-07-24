@@ -94,7 +94,7 @@
                             periodically queries the job scheduler for its list of jobs. This
                             job data is sent up to a server, written in Java, and then sent out to
                             instances of the client, a Java Swing GUI. It is similar to 
-                            <a href=#nodeprobe> the Nodeprobe </a>.
+                            <a href=#nodeprobe> the Nodeprobe</a>.
                         </p>
 
                         <p>
@@ -117,15 +117,20 @@
                             icon assignment logic in the server.
                         </p>
 
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+		        <p><img class="img-responsive" src="assets/img/portfolio/jobprobe.png" alt=""></p>
+                        <div class="caption" > 
+                            View of the jobs running on a relatively busy day.
+                            Each square represents a node.
+                        </div>
+
                         <p>
                             The Jobprobe provides an enormous amount of utility to users of clusters. 
-                            Cluster computing isn't new, but given its birth in the 90s it's still
-                            young enough that cluster tool development is a productive enterprise.
+                            Cluster computing isn't new, but it is constantly evolving with new
+                            technologies. Cluster-monitoring tool development is a dynamic and
+                            rewarding enterprise.
                         </p>
-
-		</div>
-		<div class="col-sm-5 col-sm-offset-1 centered">
-		    <p><img class="img-responsive" src="assets/img/portfolio/jobprobe.png" alt=""></p>
 		</div>
             </div><!-- /row -->
 	</div><!-- /container -->
@@ -163,7 +168,7 @@
                             paging, interrupts, load averages, disk I/O, and disk space. This
                             data is sent up to a server, written in Java, and then sent out to
                             instances of the client, a Java Swing GUI. It is similar to 
-                            <a href=#jobprobe> the Jobprobe </a>.
+                            <a href=#jobprobe> the Jobprobe</a>.
                         </p>
 
                         <p>
@@ -185,32 +190,152 @@
                         <p>
                             The Linux port was challenging. Since the daemon ran on every node, performance
                             considerations were of critical importance. During development I always compiled
-                            timing code so I could see whether or not I was actively reducing execution 
+                            timing code to monitor my
                             time. I learned a lot about the peculiarities of the /proc pseudo-filesystem, 
                             and found that reading /proc on brand-new Linux machines is slower than making 
-                            system calls on 10-year-old Sun hardware. I also learned about LKMs, having to
-                            use them with the lm-sensors library to access hardware temperature sensor data.
+                            system calls on 10-year-old Sun hardware in order to retrieve the same data. 
+                        </p>
+
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+                    
+		        <p><img class="img-responsive" src="assets/img/portfolio/nodeprobe.png" alt=""></p>
+                        <div class="caption" > 
+                            View of the "CPU" tab on the Nodeprobe showing CPU usage statistics.
+                            Each square represents a node.
+                        </div>
+
+                        <p>
+                            I also learned about LKMs, having to use them with the lm-sensors library to 
+                            access hardware temperature sensor data, overclock the CPU, and control fan
+                            speed (just kidding about the last two, my boss said I was not allowed to 
+                            void the warranty of a million dollars worth of computer hardware).
                         </p>
 
                         <p>
                             The Nodeprobe provides an enormous amount of utility. It can tell you if a node
-                            has a broken fan, if an application is page thrashing, if a node is out of memory,
-                            and much much more.
+                            has a broken fan, if an application is page thrashing, if an application is CPU-
+                            or IO-bound, if a disk is full, etc.
                         </p>
-
-		</div>
-		<div class="col-sm-5 col-sm-offset-1 centered">
-                    
-		    <p><img class="img-responsive" src="assets/img/portfolio/nodeprobe.png" alt=""></p>
-                    <p>
-                        I will shortly be working on folding the Jobprobe into the Nodeprobe.
-                        As of right now, the two applications are used concurrently, but it
-                        should be possible to integrated the Jobprobe as a "Jobs" tab in the 
-                        Nodeprobe.
-                    </p>
+                        <p>
+                            I will shortly be working on folding the Jobprobe into the Nodeprobe.
+                            As of right now, the two applications are used concurrently, but it
+                            should be possible to integrated the Jobprobe as a "Jobs" tab in the 
+                            Nodeprobe.
+                        </p>
 		</div>
             </div><!-- /row -->
 	</div><!-- /container -->
+
+        <!-- +++++ Posterankr +++++ -->
+	
+	<div class="container pt">
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <a id="posterankr"><h3>POSTERANKR</h3></a>
+                </div>
+            </div><!-- /row -->
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <h3><small>Poster Contest Ranking Website</small></h3>
+                    <hr>
+                </div>
+            </div><!-- /row -->
+
+	    <div class="row mt">
+		<div class="col-sm-5 col-sm-offset-1">
+                            
+                        <p>
+                            Posterankr is the story of how I won the NASA Ames Poster Contest.
+                            I wrote an essay that goes into more detail about the contest.
+                        </p>
+
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+                    
+		        <p><img class="img-responsive" src="assets/img/portfolio/posterankr.png" alt=""></p>
+                        <div class="caption" > 
+                            Posterankr website showing top-ranked posters, along with the like count, 
+                            which links to Facebook.
+                        </div>
+		</div>
+            </div><!-- /row -->
+	</div><!-- /container -->
+
+
+        <!-- +++++ Billboard +++++ -->
+	
+	<div class="container pt">
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <a id="billboard"><h3>BILLBOARD</h3></a>
+                </div>
+            </div><!-- /row -->
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <h3><small>Billboard Top 100 Music Player</small></h3>
+                    <hr>
+                </div>
+            </div><!-- /row -->
+
+	    <div class="row mt">
+		<div class="col-sm-5 col-sm-offset-1">
+                            
+                        <p>
+                            Billboard Top 100 Music Player is a desktop client that takes an RSS feed from
+                            the Billboard Top 100 website and downloads the list of 100 as mp3 files. 
+                        </p>
+
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+                    
+		        <p><img class="img-responsive" src="assets/img/portfolio/billboard.png" alt=""></p>
+                        <div class="caption" > 
+                            Billboard client showing the top 100 songs, along with download success and currently
+                            playing song indicators.
+                        </div>
+		</div>
+            </div><!-- /row -->
+	</div><!-- /container -->
+
+        <!-- +++++ Judge's Station +++++ -->
+	
+	<div class="container pt">
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <a id="judgestation"><h3>Judge's Station</h3></a>
+                </div>
+            </div><!-- /row -->
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <h3><small>UAV Ground Control Station</small></h3>
+                    <hr>
+                </div>
+            </div><!-- /row -->
+
+	    <div class="row mt">
+		<div class="col-sm-5 col-sm-offset-1">
+                            
+                        <p>
+                            The Judge's Station is a multi-vehicle ground station that tracks and controls
+                            unpiloted aerial vehicles.
+                        </p>
+
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+                    
+		        <p><img class="img-responsive" src="assets/img/portfolio/judgeStation.png" alt=""></p>
+                        <div class="caption" > 
+                            Judge's Station display showing data from multiple UAVs flying missions 
+                            in the surrounding air space.
+                        </div>
+		</div>
+            </div><!-- /row -->
+	</div><!-- /container -->
+
+
+
+
 
 	
 
