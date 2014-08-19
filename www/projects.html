@@ -53,7 +53,6 @@
             <li><a href="about.html"><i class="fa fa-info-circle"></i>About</a></li>
             <li><a href="blog.html"><i class="fa fa-pencil"></i>Blog</a></li>
             <li><a href="books.html"><i class="fa fa-book"></i>Books</a></li>
-            <li><a href="contact.html"><i class="fa fa-comment"></i>Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -246,8 +245,18 @@
 		<div class="col-sm-5 col-sm-offset-1">
                             
                         <p>
-                            Posterankr is the story of how I won the NASA Ames Poster Contest.
-                            I wrote an essay that goes into more detail about the contest.
+                            Posterankr is a web application that shows the top-ranked
+                            posters from the NASA Ames Summer 2013 Intern Poster Contest.
+                            The Contest challenged interns to see who could get the most
+                            Facebook likes for their poster in three days.
+                        </p>
+                        <p>
+                            Posterankr is an outgrowth of my poster contest campaign,
+                            an effort described in detail in my first blog post.
+                            Posterankr offers like-count ordinality to the hundreds of otherwise-unranked
+                            posters.
+                            Its simple interface consists of Boostrap and static html. It uses the Facebook 
+                            Graph API to get like counts, photos, and links.
                         </p>
 
 		</div>
@@ -255,8 +264,8 @@
                     
 		        <p><img class="img-responsive" src="assets/img/portfolio/posterankr.png" alt=""></p>
                         <div class="caption" > 
-                            Posterankr website showing top-ranked posters, along with the like count, 
-                            which links to Facebook.
+                            Posterankr website showing top-ranked posters, along with like counts
+                            and links to Facebook.
                         </div>
 		</div>
             </div><!-- /row -->
@@ -282,8 +291,18 @@
 		<div class="col-sm-5 col-sm-offset-1">
                             
                         <p>
-                            Billboard Top 100 Music Player is a desktop client that takes an RSS feed from
-                            the Billboard Top 100 website and downloads the list of 100 as mp3 files. 
+                            Billboard Top 100 Music Player is a desktop client that lets you listen
+                            to the Top 100 on your desktop. Without advertisements. For free.
+                        </p>
+                        <p>
+                            It works by downloading the Top 100 list from the Billboard RSS feed,
+                            then uses the Youtube API, youtube-dl, and ffmpeg to download and
+                            convert videos to mp3 for each of the Top 100. 
+                        </p>
+                        <p>
+                            The interface is a list of the Top 100, sortable by rank, title,
+                            and artist. It is also a fully-capable mp3 player, allowing the
+                            user to listen to the list.
                         </p>
 
 		</div>
@@ -291,8 +310,7 @@
                     
 		        <p><img class="img-responsive" src="assets/img/portfolio/billboard.png" alt=""></p>
                         <div class="caption" > 
-                            Billboard client showing the top 100 songs, along with download success and currently
-                            playing song indicators.
+                            Billboard client showing the top 100 songs.
                         </div>
 		</div>
             </div><!-- /row -->
@@ -318,7 +336,15 @@
                             
                         <p>
                             The Judge's Station is a multi-vehicle ground station that tracks and controls
-                            unpiloted aerial vehicles.
+                            unpiloted aerial vehicles (UAVs). It was written to score a UAV-focused NASA 
+                            Centennial Challenge. It displays the position and other data associated with
+                            UAVs operating in the airspace. It also generates mission for competitors,
+                            scores competitors, maintains range safety, and commands UAVs.
+                        </p>
+                        <p>
+                            The Judge's Station communicates with the UAVs over a radio telemetry link
+                            using the MAVLINK communications protocol. It is compatible with
+                            any autopilots implementing MAVLINK. We at NASA used ardupilot.
                         </p>
 
 		</div>
