@@ -1,9 +1,0 @@
-notes.txt
-
-This website was built using Stanley Bootstrap theme
-(http://www.blacktie.co/2014/01/stanley-freelancer-theme/) and minor
-changes to the theme e.g. fonts, colors, etc., according to this guide
-(http://24ways.org/2012/how-to-make-your-site-look-half-decent/)
-
-The domain pozulp.com and subdomains are registered with namecheap.com and
-hosted for free using gh-pages.
