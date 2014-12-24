@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <title>Mike's Projects</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS (for icons) -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/mp.ico" sizes="16x16 32x32 48x48 64x64 128x128"
+    type="image/vnd.microsoft.icon">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Mike</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="projects.html"><i class="fa fa-archive"></i>Projects</a></li>
+            <li><a href="books.html"><i class="fa fa-book"></i>Books</a></li>
+            <li><a href="blog.html"><i class="fa fa-pencil"></i>Blog</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	
+	
+	<!-- +++++ Jobprobe Projects Section +++++ -->
+	
+	<div class="container pt">
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <a id="jobprobe"><h3>JOBPROBE</h3></a>
+                </div>
+            </div><!-- /row -->
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <h3><small>A Graphical Display of Distributed Computing</small></h3>
+                    <hr>
+                </div>
+            </div><!-- /row -->
+
+	    <div class="row mt">
+		<div class="col-sm-5 col-sm-offset-1">
+                    <blockquote>
+                        <p>
+                            "We use Jobprobe every day." 
+                            <footer> Tom Crockett, Senior Research Associate/Manager, 
+                                     High Performance Computing, College of William &amp; Mary
+                            </footer>
+                        </p>
+                    </blockquote>
+
+                        <p>
+			    The Jobprobe is a multi-platform desktop application that 
+                            provides a dynamic graphical display of
+                            computation processes ("jobs") running on a computer 
+                            cluster. The back-end, written in C, is a daemon process that 
+                            periodically queries the job scheduler for its list of jobs. This
+                            job data is sent up to a server, written in Java, and then sent out to
+                            instances of the client, a Java Swing GUI. It is similar to 
+                            <a href=#nodeprobe> the Nodeprobe</a>.
+                        </p>
+
+                        <p>
+                            The image on this page is a screenshot of the Jobprobe client showing
+                            the jobs running on 
+                            <a href="http://www.hpc.wm.edu/SciClone/Home">
+                                William &amp; Mary's SciClone Cluster</a>. 
+                            The top part of the display shows what jobs are running on which nodes,
+                            each node in the cluster represented by a square.
+                            The bottom part is a sortable list of all the jobs running on the cluster.
+                        </p>
+
+                        <p>
+                            The Jobprobe was originally developed by Andrew Otto at William &amp; Mary 
+                            in 2004. By the time I got to it in 2012, the Jobprobe was dead.
+                            My first job was porting the backend from Sparc/Solaris to x86/Linux. 
+                            This was largely a problem of swapping function calls, endianness, and other 
+                            eccentricities of platform specificity. After the port, I added features to the 
+                            client like column sorting and authentication. I also swapped around some of the 
+                            icon assignment logic in the server.
+                        </p>
+
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+		        <p><img class="img-responsive" src="assets/img/portfolio/jobprobe.png" alt=""></p>
+                        <div class="caption" > 
+                            View of the jobs running on a relatively busy day.
+                            Each square represents a node.
+                        </div>
+
+                        <p>
+                            The Jobprobe provides an enormous amount of utility to users of clusters. 
+                            Cluster computing isn't new, but it is constantly evolving with new
+                            technologies. Cluster-monitoring tool development is a dynamic and
+                            rewarding enterprise.
+                        </p>
+		</div>
+            </div><!-- /row -->
+	</div><!-- /container -->
+
+        <!-- +++++ Nodeprobe +++++ -->
+	
+	<div class="container pt">
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <a id="nodeprobe"><h3>NODEPROBE</h3></a>
+                </div>
+            </div><!-- /row -->
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <h3><small>A Graphical Display of Node Data</small></h3>
+                    <hr>
+                </div>
+            </div><!-- /row -->
+
+	    <div class="row mt">
+		<div class="col-sm-5 col-sm-offset-1">
+                    <blockquote>
+                        <p>
+                            "We use Nodeprobe every day." 
+                            <footer> Tom Crockett, Senior Research Associate/Manager, 
+                                     High Performance Computing, College of William &amp; Mary
+                            </footer>
+                        </p>
+                    </blockquote>
+                        <p>
+			    The Nodeprobe is a multi-platform desktop application that 
+                            provides a dynamic graphical display of node data statistics. 
+                            The back-end, written in C, is a daemon process that runs on 
+                            every node and gathers information about cpu and memory usage,
+                            paging, interrupts, load averages, disk I/O, and disk space. This
+                            data is sent up to a server, written in Java, and then sent out to
+                            instances of the client, a Java Swing GUI. It is similar to 
+                            <a href=#jobprobe> the Jobprobe</a>.
+                        </p>
+
+                        <p>
+                            The image on this page is a screenshot of the Nodeprobe client showing
+                            the cluster of nodes on
+                            <a href="http://www.hpc.wm.edu/SciClone/Home">
+                                William &amp; Mary's SciClone Cluster</a>. 
+                            Each square is an individual node.
+                        </p>
+
+                        <p>
+                            The Nodeprobe was originally developed by Andrew Otto at William &amp; Mary 
+                            in 2004. By the time I got to it in 2013, the Nodeprobe was dead.
+                            My first job was porting the backend from Sparc/Solaris to x86/Linux. 
+                            On Solaris, node statistics were collected using system calls. The Linux 
+                            paradigm requires you read from /proc to get the same data. 
+                        </p>
+
+                        <p>
+                            The Linux port was challenging. Since the daemon ran on every node, performance
+                            considerations were of critical importance. During development I always compiled
+                            timing code to monitor my
+                            time. I learned a lot about the peculiarities of the /proc pseudo-filesystem, 
+                            and found that reading /proc on brand-new Linux machines is slower than making 
+                            system calls on 10-year-old Sun hardware in order to retrieve the same data. 
+                        </p>
+
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+                    
+		        <p><img class="img-responsive" src="assets/img/portfolio/nodeprobe.png" alt=""></p>
+                        <div class="caption" > 
+                            View of the "CPU" tab on the Nodeprobe showing CPU usage statistics.
+                            Each square represents a node.
+                        </div>
+
+                        <p>
+                            I also learned about LKMs, having to use them with the lm-sensors library to 
+                            access hardware temperature sensor data, overclock the CPU, and control fan
+                            speed (just kidding about the last two, my boss said I was not allowed to 
+                            void the warranty of a million dollars worth of computer hardware).
+                        </p>
+
+                        <p>
+                            The Nodeprobe provides an enormous amount of utility. It can tell you if a node
+                            has a broken fan, if an application is page thrashing, if an application is CPU-
+                            or IO-bound, if a disk is full, etc.
+                        </p>
+                        <p>
+                            I will shortly be working on folding the Jobprobe into the Nodeprobe.
+                            As of right now, the two applications are used concurrently, but it
+                            should be possible to integrated the Jobprobe as a "Jobs" tab in the 
+                            Nodeprobe.
+                        </p>
+		</div>
+            </div><!-- /row -->
+	</div><!-- /container -->
+
+        <!-- +++++ Posterankr +++++ -->
+	
+	<div class="container pt">
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <a id="posterankr"><h3>POSTERANKR</h3></a>
+                </div>
+            </div><!-- /row -->
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <h3><small>Poster Contest Ranking Website</small></h3>
+                    <hr>
+                </div>
+            </div><!-- /row -->
+
+	    <div class="row mt">
+		<div class="col-sm-5 col-sm-offset-1">
+                            
+                        <p>
+                            Posterankr is a web application that shows the top-ranked
+                            posters from the NASA Ames Summer 2013 Intern Poster Contest.
+                            The Contest challenged interns to see who could get the most
+                            Facebook likes for their poster in three days.
+                        </p>
+                        <p>
+                            Posterankr is an outgrowth of my poster contest campaign,
+                            an effort described in detail in my first blog post.
+                            Posterankr offers like-count ordinality to the hundreds of otherwise-unranked
+                            posters.
+                            Its simple interface consists of Boostrap and static html. It uses the Facebook 
+                            Graph API to get like counts, photos, and links.
+                        </p>
+
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+                    
+		        <p><img class="img-responsive" src="assets/img/portfolio/posterankr.png" alt=""></p>
+                        <div class="caption" > 
+                            Posterankr website showing top-ranked posters, along with like counts
+                            and links to Facebook.
+                        </div>
+		</div>
+            </div><!-- /row -->
+	</div><!-- /container -->
+
+
+        <!-- +++++ Billboard +++++ -->
+	
+	<div class="container pt">
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <a id="billboard"><h3>BILLBOARD</h3></a>
+                </div>
+            </div><!-- /row -->
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <h3><small>Billboard Top 100 Music Player</small></h3>
+                    <hr>
+                </div>
+            </div><!-- /row -->
+
+	    <div class="row mt">
+		<div class="col-sm-5 col-sm-offset-1">
+                            
+                        <p>
+                            Billboard Top 100 Music Player (BTMP) is a desktop client that 
+                            lets you listen to the Top 100 on your desktop. Without advertisements.
+                            For free.
+                        </p>
+                        <p>
+                            It works by downloading the Top 100 list from the Billboard RSS feed,
+                            then uses the Youtube API, youtube-dl, and ffmpeg to download and
+                            convert videos to mp3 for each of the Top 100. 
+                        </p>
+                        <p>
+                            The interface is a list of the Top 100, sortable by rank, title,
+                            and artist. It is also a fully-capable mp3 player, allowing the
+                            user to listen to the list.
+                        </p>
+                        <p>
+                            There are a bunch of 
+     <a href="https://en.wikipedia.org/wiki/List_of_online_music_databases">other places</a> 
+                            you can go to listen to Top 100 music, including the 
+                            <a href="http://www.billboard.com/">Billboard website</a>. 
+                            You could even turn on the radio. The advantage of BTMP is that 
+                            it provides a clean interface with a minimum featureset. 
+                            It's also free/libre and open source.
+                        </p>
+
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+                    
+		        <p><img class="img-responsive" src="assets/img/portfolio/billboard.png" alt=""></p>
+                        <div class="caption" > 
+                            BTMP client interface showing the Top 100.
+                        </div>
+		</div>
+            </div><!-- /row -->
+	</div><!-- /container -->
+
+        <!-- +++++ Judge's Station +++++ -->
+	
+	<div class="container pt">
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <a id="judgestation"><h3>Judge's Station</h3></a>
+                </div>
+            </div><!-- /row -->
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <h3><small>UAV Ground Control Station</small></h3>
+                    <hr>
+                </div>
+            </div><!-- /row -->
+
+	    <div class="row mt">
+		<div class="col-sm-5 col-sm-offset-1">
+                            
+                        <p>
+                            The Judge's Station is a multi-vehicle ground station that tracks and controls
+                            unpiloted aerial vehicles (UAVs). It was written to score a UAV-focused NASA 
+                            Centennial Challenge. It displays the position and other data associated with
+                            UAVs operating in the airspace. It also generates mission for competitors,
+                            scores competitors, maintains range safety, and commands UAVs.
+                        </p>
+                        <p>
+                            The Judge's Station communicates with the UAVs over a radio telemetry link
+                            using the MAVLINK communications protocol. It is compatible with
+                            any autopilots implementing MAVLINK. We at NASA chose ardupilot.
+                        </p>
+
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+                    
+		        <p><img class="img-responsive" src="assets/img/portfolio/judgeStation.png" alt=""></p>
+                        <div class="caption" > 
+                            Judge's Station display showing data from multiple UAVs flying missions 
+                            in the surrounding air space.
+                        </div>
+		</div>
+            </div><!-- /row -->
+	</div><!-- /container -->
+
+        <!-- +++++ gMeter +++++ -->
+	
+	<div class="container pt">
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <a id="gMeter"><h3>gMeter</h3></a>
+                </div>
+            </div><!-- /row -->
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <h3><small>Accelerometer-Based Gravity Measurement Tool</small></h3>
+                    <hr>
+                </div>
+            </div><!-- /row -->
+
+	    <div class="row mt">
+		<div class="col-sm-5 col-sm-offset-1">
+                            
+                        <p>
+                            The gMeter is an Android app that uses the accelerometer in an Android device,
+                            such as a smart phone, to measure the acceleration due to gravity, g. The 
+                            interface includes a time-series graph of the values from the 3-dimensional
+                            accelerometer collected in real time. For example, shaking the device will
+                            spike the flat lines in the graph.
+                        </p>
+                        <p>
+                            I originally wrote the gMeter as a project for my Physics 101 Honors course.
+                            At the end of the semester our professor asked the class to get into groups 
+                            and, restricting us to the use of a single smart phone and any mechanical
+                            object we could get our hands on, devise a way to measure the acceleration
+                            due to gravity. My first thought was to use the phone's accelerometer.
+                        </p>
+                        <p>
+                            While other groups went about procuring cumbersome springs, long pendulums,
+                            and finicky Atwood machines, I started programming my Android phone. I used
+                            the AndroidPlot library to do the time series graph, and simply iterated off
+                            an example that did the same thing that I wanted to do with the accelerometer
+                            but rather with the gyroscope. All of the code is available on my
+                            <a href="https://github.com/mmpozulp">github</a>.
+                        </p>
+		</div>
+		<div class="col-sm-5 col-sm-offset-1">
+                    
+		        <p><img class="img-responsive" src="assets/img/portfolio/gmeter.png" alt=""></p>
+                        <div class="caption" > 
+                            The gMeter interface shows a time-series of accelerometer data collected in real time.
+                        </div>
+		</div>
+            </div><!-- /row -->
+	</div><!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
