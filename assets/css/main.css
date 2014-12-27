@@ -92,11 +92,6 @@ a:after {
 }
 
 .navbar-inverse {
-	padding-bottom: 20px;
-	padding-top: 20px;
-}
-
-.navbar-inverse {
 	background-color: #1abc9c;
 	border-color: #16a085;
 }
