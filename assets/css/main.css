@@ -216,3 +216,8 @@ bt {
     width:100%;
     padding-bottom:15px;
 }
+
+/* Remove list-group margin (for book page spacing) */
+.list-group {
+    margin-bottom: 0px;
+}
