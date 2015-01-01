@@ -1,83 +1,83 @@
 Currently Reading
-Applied Cryptography, Bruce Schneier 
-Skunk Works, Ben Rich & Leo Janos 
-Ishmael, Daniel Quinn 
-The Better Angels of our Nature, Steven Pinker 
-Longitude, Dava Sobel 
-A Thread Across the Ocean, John Steele Gordon
-Fahrenheit 451, Ray Bradbury
+N, Applied Cryptography, Bruce Schneier 
+N, Skunk Works, Ben Rich & Leo Janos 
+N, Ishmael, Daniel Quinn 
+N, The Better Angels of our Nature, Steven Pinker 
+N, A Thread Across the Ocean, John Steele Gordon
+N, Fahrenheit 451, Ray Bradbury
 
 Read in 2014
-Of Mice & Men, John Steinbeck 
-A Short History of Nearly Everything, Bill Bryson
-Grapes of Wrath, John Steinbeck
-The Most Powerful Idea in the World, William Rosen
-Sex at Dawn, Christopher Ryan & Cacilda Jetha
-The Bet, Paul Sabin
-The Cathedral and the Bazaar, Eric S. Raymond
-All Quiet on the Western Front, Erich Remarque
-Cosmos, Carl Sagan
-The Last Lecture, Randy Pausch
-The Bonobo and the Atheist, Frans de Waal
-Flash Boys, Michael Lewis
-The Stranger, Albert Camus
+Y, Longitude, Dava Sobel 
+Y, Of Mice and Men, John Steinbeck 
+N, A Short History of Nearly Everything, Bill Bryson
+N, Grapes of Wrath, John Steinbeck
+N, The Most Powerful Idea in the World, William Rosen
+N, Sex at Dawn, Christopher Ryan & Cacilda Jetha
+N, The Bet, Paul Sabin
+N, The Cathedral and the Bazaar, Eric S. Raymond
+N, All Quiet on the Western Front, Erich Remarque
+N, Cosmos, Carl Sagan
+N, The Last Lecture, Randy Pausch
+N, The Bonobo and the Atheist, Frans de Waal
+N, Flash Boys, Michael Lewis
+N, The Stranger, Albert Camus
 
 Read Before 2014
-Cod, Mark Kurlansky
-The Box, Marc Levinson
-The Botany of Desire, Michael Pollan
-Four Fish, Paul Greenberg
-Code, Charles Petzold
-The Information, James Gleick
-Brave New World, Aldous Huxley
-The Golden Ticket, Lance Fortnow
-The Big Short, Michael Lewis
-Tale of Two Cities, Charles Dickens
-Under the Banner of Heaven, Jon Krakauer
-Into the Wild, Jon Krakauer
-Into Thin Air, Jon Krakauer
-A Random Walk Down Wallstreet, Burton Malkiel
-Security Analysis, David Dodd & Benjamin Graham
-East of Eden, Jon Steinbeck
-In Cold Blood, Truman Capote
-The Overachievers, Alexandra Robbins
-A Brief History of Time, Stephen Hawking
-Feynman Lectures on Computation, Richard Feynman
-Harry Potter, J.K. Rowling 
-Hoot, Carl Hiaasen
-Debt, David Graeber
-Death of a Salesman, Arthur Miller
-A Separate Peace, John Knowles
-To Kill a Mockingbird, Harper Lee
-Adventures of Huckleberry Finn, Mark Twain
-The Raven, Edgar Allen Poe
-The Most Dangerous Game, Richard Connell
-The Telltale Heart, Edgar Allen Poe
-The God Particle, Leon Lederman & Dick Teresi
-Ghost in the Wires, Kevin Mitnick
-Confessions of an Economic Hit Man, John Perkins
-Lincoln's Melancholy, Joshua Shenk
-Soul of a New Machine, Tracy Kidder
-The Mythical Man-Month, Fred Brooks
-The Design of Everyday Things, Don Norman
-Coding Freedom, E. Gabriella Coleman
-Free Culture, Lawrence Lessig
-Consider the Lobster, David Foster Wallace
-Mountains of Pi, Richard Preston
-Lifelike, Susan Orlean
-The Knife, Richard Selzer
-The Zen of Programming, Geoffrey James
-Holidays on Ice, David Sedaris
-Guy Walks Into a Bar Car, David Sedaris
-The Signal and the Noise, Nate Silver
-Let Me Tell You a Story: A Lifetime in the Game, John Feinstein & Red Auerbauch
-The Idea Factory, Jon Gertner
-Why We Get Fat, Gary Taubes
-Tubes, Andrew Blum
-Sweetwater, Laurence Yep
-Goosebumps, R.L. Stine
+N, Cod, Mark Kurlansky
+N, The Box, Marc Levinson
+N, The Botany of Desire, Michael Pollan
+N, Four Fish, Paul Greenberg
+N, Code, Charles Petzold
+N, The Information, James Gleick
+N, Brave New World, Aldous Huxley
+N, The Golden Ticket, Lance Fortnow
+N, The Big Short, Michael Lewis
+N, Tale of Two Cities, Charles Dickens
+N, Under the Banner of Heaven, Jon Krakauer
+N, Into the Wild, Jon Krakauer
+N, Into Thin Air, Jon Krakauer
+N, A Random Walk Down Wallstreet, Burton Malkiel
+N, Security Analysis, David Dodd & Benjamin Graham
+N, East of Eden, Jon Steinbeck
+N, In Cold Blood, Truman Capote
+N, The Overachievers, Alexandra Robbins
+N, A Brief History of Time, Stephen Hawking
+N, Feynman Lectures on Computation, Richard Feynman
+N, Harry Potter, J.K. Rowling 
+N, Hoot, Carl Hiaasen
+N, Debt, David Graeber
+N, Death of a Salesman, Arthur Miller
+N, A Separate Peace, John Knowles
+N, To Kill a Mockingbird, Harper Lee
+N, Adventures of Huckleberry Finn, Mark Twain
+N, The Raven, Edgar Allen Poe
+N, The Most Dangerous Game, Richard Connell
+N, The Telltale Heart, Edgar Allen Poe
+N, The God Particle, Leon Lederman & Dick Teresi
+N, Ghost in the Wires, Kevin Mitnick
+N, Confessions of an Economic Hit Man, John Perkins
+N, Lincoln's Melancholy, Joshua Shenk
+N, Soul of a New Machine, Tracy Kidder
+N, The Mythical Man-Month, Fred Brooks
+N, The Design of Everyday Things, Don Norman
+N, Coding Freedom, E. Gabriella Coleman
+N, Free Culture, Lawrence Lessig
+N, Consider the Lobster, David Foster Wallace
+N, Mountains of Pi, Richard Preston
+N, Lifelike, Susan Orlean
+N, The Knife, Richard Selzer
+N, The Zen of Programming, Geoffrey James
+N, Holidays on Ice, David Sedaris
+N, Guy Walks Into a Bar Car, David Sedaris
+N, The Signal and the Noise, Nate Silver
+N, Let Me Tell You a Story: A Lifetime in the Game, John Feinstein & Red Auerbauch
+N, The Idea Factory, Jon Gertner
+N, Why We Get Fat, Gary Taubes
+N, Tubes, Andrew Blum
+N, Sweetwater, Laurence Yep
+N, Goosebumps, R.L. Stine
 
 Quit While Reading
-The Tipping Point, Malcolm Gladwell
-Undaunted Courage, Stephen Ambrose
-Republican Gomorrah, Max Blumenthal
+N, The Tipping Point, Malcolm Gladwell
+N, Undaunted Courage, Stephen Ambrose
+N, Republican Gomorrah, Max Blumenthal

@@ -221,3 +221,8 @@ bt {
 .list-group {
     margin-bottom: 0px;
 }
+
+/* Widen the modals (for book review text) */
+.modal .modal-dialog {
+    width: 80%;
+}
