@@ -95,7 +95,7 @@ def replace_reviews(template):
         i = 2
         body = ""
         while i < len(reviews) and reviews[i] != '':
-            body += reviews[i]
+            body += "<p>" + reviews[i] + "</p>"
             i += 1
 
         # Update reviews so on the next iteration we
