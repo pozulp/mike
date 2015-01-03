@@ -7,8 +7,8 @@ N, A Thread Across the Ocean, John Steele Gordon
 N, Fahrenheit 451, Ray Bradbury
 
 Read in 2014
-Y, Longitude, Dava Sobel 
-Y, Of Mice and Men, John Steinbeck 
+N, Longitude, Dava Sobel 
+N, Of Mice and Men, John Steinbeck 
 Y, A Short History of Nearly Everything, Bill Bryson
 N, Grapes of Wrath, John Steinbeck
 N, The Most Powerful Idea in the World, William Rosen
