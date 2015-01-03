@@ -92,11 +92,6 @@ a:after {
 }
 
 .navbar-inverse {
-	padding-bottom: 20px;
-	padding-top: 20px;
-}
-
-.navbar-inverse {
 	background-color: #1abc9c;
 	border-color: #16a085;
 }
@@ -220,4 +215,14 @@ bt {
     text-align: center;
     width:100%;
     padding-bottom:15px;
+}
+
+/* Remove list-group margin (for book page spacing) */
+.list-group {
+    margin-bottom: 0px;
+}
+
+/* Widen the modals (for book review text) */
+.modal .modal-dialog {
+    width: 80%;
 }

@@ -1,222 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-    <title>Mike's Book List</title>
+<title>Mike's Book List</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+<!-- Bootstrap core CSS -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
 
-    <!-- Font Awesome CSS (for icons) -->
-    <link href="assets/css/font-awesome.css" rel="stylesheet">
+<!-- Font Awesome CSS (for icons) -->
+<link href="assets/css/font-awesome.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="assets/css/main.css" rel="stylesheet">
 
-    <!-- Favicon -->
-    <link rel="icon" href="assets/img/mp.ico" sizes="16x16 32x32 48x48 64x64 128x128"
-    type="image/vnd.microsoft.icon">
+<!-- Favicon -->
+<link rel="icon" href="assets/img/mp.ico" sizes="16x16 32x32 48x48 64x64 128x128"
+type="image/vnd.microsoft.icon">
 
-    <!-- Collapsable accordion JS -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<!-- Collapsable accordion JS -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-  </head>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+</head>
 
-  <body>
+<body>
 
-    <!-- Static navbar -->
-    <div class="navbar navbar-inverse navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Mike</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="projects.html"><i class="fa fa-archive"></i>Projects</a></li>
-            <li><a href="books.html"><i class="fa fa-book"></i>Books</a></li>
-            <li><a href="blog.html"><i class="fa fa-pencil"></i>Blog</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-	
-	<div class="container pt">
-            <div class="row">
-                <div class="col-lg-12">
+<!-- Static navbar -->
+<div class="navbar navbar-inverse navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="index.html">Mike</a>
+</div>
+<div class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+<li><a href="projects.html"><i class="fa fa-archive"></i>Projects</a></li>
+<li><a href="books.html"><i class="fa fa-book"></i>Books</a></li>
+<li><a href="blog.html"><i class="fa fa-pencil"></i>Blog</a></li>
+</ul>
+</div><!--/.nav-collapse -->
+</div>
+</div>
 
-                    <div class="panel-group" id="accordion">
-                      <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                              Currently Reading
-                            </a>
-                          </h4>
-                        </div>
-                        <div id="collapseOne" class="panel-collapse collapse in">
-                          <div class="panel-body">
+<div class="container pt">
+<div class="row">
+<div class="col-lg-12">
 
-                            <ul class="list-unstyled">
-                            <li>Applied Cryptography, Bruce Shneier</li>
-                            <li>Skunk Works, Ben Rich & Leo Janos</li>
-                            <li>Ishmael, Daniel Quinn</li>
-                            <li>The Better Angels of our Nature, Steven Pinker</li>
-                            <li>Longitude, Dava Sobel</li>
-                            <li>A Thread Across the Ocean, John Steele Gordon</li>
-                            <li>Fahrenheit 451, Ray Bradbury</li>
-                            </ul>
+<div class="panel-group" id="accordion">
+<div class="panel panel-default">
+<div class="panel-heading">
+<div class="panel-title text-center">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+Currently Reading
+</a>
+</div>
+</div>
+<div id="collapseOne" class="panel-collapse collapse in">
+<div class="panel-body">
+<div class="list-group">
+<div class="list-group-item text-center">Applied Cryptography <small>Bruce Schneier</small></div><div class="list-group-item text-center">Skunk Works <small>Ben Rich & Leo Janos</small></div><div class="list-group-item text-center">Ishmael <small>Daniel Quinn</small></div><div class="list-group-item text-center">The Better Angels of our Nature <small>Steven Pinker</small></div><div class="list-group-item text-center">A Thread Across the Ocean <small>John Steele Gordon</small></div><div class="list-group-item text-center">Fahrenheit 451 <small>Ray Bradbury</small></div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<div class="panel-title text-center">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+Read in 2014
+</a>
+</div>
+</div>
+<div id="collapseTwo" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="list-group">
+<div class="list-group-item text-center">Longitude <small>Dava Sobel</small></div><div class="list-group-item text-center">Of Mice and Men <small>John Steinbeck</small></div><a href="#" class="list-group-item text-center" data-toggle="modal" data-target="#AShortHistoryofNearlyEverything">A Short History of Nearly Everything <small>Bill Bryson</small></a><div class="list-group-item text-center">Grapes of Wrath <small>John Steinbeck</small></div><div class="list-group-item text-center">The Most Powerful Idea in the World <small>William Rosen</small></div><div class="list-group-item text-center">Sex at Dawn <small>Christopher Ryan & Cacilda Jetha</small></div><div class="list-group-item text-center">The Bet <small>Paul Sabin</small></div><div class="list-group-item text-center">The Cathedral and the Bazaar <small>Eric S. Raymond</small></div><div class="list-group-item text-center">All Quiet on the Western Front <small>Erich Remarque</small></div><div class="list-group-item text-center">Cosmos <small>Carl Sagan</small></div><div class="list-group-item text-center">The Last Lecture <small>Randy Pausch</small></div><div class="list-group-item text-center">The Bonobo and the Atheist <small>Frans de Waal</small></div><div class="list-group-item text-center">Flash Boys <small>Michael Lewis</small></div><div class="list-group-item text-center">The Stranger <small>Albert Camus</small></div>
+</div>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<div class="panel-title text-center">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+Read Before 2014
+</a>
+</div>
+</div>
+<div id="collapseThree" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="list-group">
+<div class="list-group-item text-center">Cod <small>Mark Kurlansky</small></div><div class="list-group-item text-center">The Box <small>Marc Levinson</small></div><div class="list-group-item text-center">The Botany of Desire <small>Michael Pollan</small></div><div class="list-group-item text-center">Four Fish <small>Paul Greenberg</small></div><div class="list-group-item text-center">Code <small>Charles Petzold</small></div><div class="list-group-item text-center">The Information <small>James Gleick</small></div><div class="list-group-item text-center">Brave New World <small>Aldous Huxley</small></div><div class="list-group-item text-center">The Golden Ticket <small>Lance Fortnow</small></div><div class="list-group-item text-center">The Big Short <small>Michael Lewis</small></div><div class="list-group-item text-center">Tale of Two Cities <small>Charles Dickens</small></div><div class="list-group-item text-center">Under the Banner of Heaven <small>Jon Krakauer</small></div><div class="list-group-item text-center">Into the Wild <small>Jon Krakauer</small></div><div class="list-group-item text-center">Into Thin Air <small>Jon Krakauer</small></div><div class="list-group-item text-center">A Random Walk Down Wallstreet <small>Burton Malkiel</small></div><div class="list-group-item text-center">Security Analysis <small>David Dodd & Benjamin Graham</small></div><div class="list-group-item text-center">East of Eden <small>Jon Steinbeck</small></div><div class="list-group-item text-center">In Cold Blood <small>Truman Capote</small></div><div class="list-group-item text-center">The Overachievers <small>Alexandra Robbins</small></div><div class="list-group-item text-center">A Brief History of Time <small>Stephen Hawking</small></div><div class="list-group-item text-center">Feynman Lectures on Computation <small>Richard Feynman</small></div><div class="list-group-item text-center">Harry Potter <small>J.K. Rowling</small></div><div class="list-group-item text-center">Hoot <small>Carl Hiaasen</small></div><div class="list-group-item text-center">Debt <small>David Graeber</small></div><div class="list-group-item text-center">Death of a Salesman <small>Arthur Miller</small></div><div class="list-group-item text-center">A Separate Peace <small>John Knowles</small></div><div class="list-group-item text-center">To Kill a Mockingbird <small>Harper Lee</small></div><div class="list-group-item text-center">Adventures of Huckleberry Finn <small>Mark Twain</small></div><div class="list-group-item text-center">The Raven <small>Edgar Allen Poe</small></div><div class="list-group-item text-center">The Most Dangerous Game <small>Richard Connell</small></div><div class="list-group-item text-center">The Telltale Heart <small>Edgar Allen Poe</small></div><div class="list-group-item text-center">The God Particle <small>Leon Lederman & Dick Teresi</small></div><div class="list-group-item text-center">Ghost in the Wires <small>Kevin Mitnick</small></div><div class="list-group-item text-center">Confessions of an Economic Hit Man <small>John Perkins</small></div><div class="list-group-item text-center">Lincoln's Melancholy <small>Joshua Shenk</small></div><div class="list-group-item text-center">Soul of a New Machine <small>Tracy Kidder</small></div><div class="list-group-item text-center">The Mythical Man-Month <small>Fred Brooks</small></div><div class="list-group-item text-center">The Design of Everyday Things <small>Don Norman</small></div><div class="list-group-item text-center">Coding Freedom <small>E. Gabriella Coleman</small></div><div class="list-group-item text-center">Free Culture <small>Lawrence Lessig</small></div><div class="list-group-item text-center">Consider the Lobster <small>David Foster Wallace</small></div><div class="list-group-item text-center">Mountains of Pi <small>Richard Preston</small></div><div class="list-group-item text-center">Lifelike <small>Susan Orlean</small></div><div class="list-group-item text-center">The Knife <small>Richard Selzer</small></div><div class="list-group-item text-center">The Zen of Programming <small>Geoffrey James</small></div><div class="list-group-item text-center">Holidays on Ice <small>David Sedaris</small></div><div class="list-group-item text-center">Guy Walks Into a Bar Car <small>David Sedaris</small></div><div class="list-group-item text-center">The Signal and the Noise <small>Nate Silver</small></div><div class="list-group-item text-center">Let Me Tell You a Story: A Lifetime in the Game <small>John Feinstein & Red Auerbauch</small></div><div class="list-group-item text-center">The Idea Factory <small>Jon Gertner</small></div><div class="list-group-item text-center">Why We Get Fat <small>Gary Taubes</small></div><div class="list-group-item text-center">Tubes <small>Andrew Blum</small></div><div class="list-group-item text-center">Sweetwater <small>Laurence Yep</small></div><div class="list-group-item text-center">Goosebumps <small>R.L. Stine</small></div>
+</div>
+</div>
+</div>
+</div>
 
-                          </div>
-                        </div>
-                      </div>
-                      <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                              Read in 2014
-                            </a>
-                          </h4>
-                        </div>
-                        <div id="collapseTwo" class="panel-collapse collapse">
-                          <div class="panel-body">
+<div class="panel panel-default">
+<div class="panel-heading">
+<div class="panel-title text-center">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+Quit While Reading
+</a>
+</div>
+</div>
+<div id="collapseFour" class="panel-collapse collapse">
+<div class="panel-body">
+<div class="list-group">
+<div class="list-group-item text-center">The Tipping Point <small>Malcolm Gladwell</small></div><div class="list-group-item text-center">Undaunted Courage <small>Stephen Ambrose</small></div><div class="list-group-item text-center">Republican Gomorrah <small>Max Blumenthal</small></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- /row -->
+</div><!-- /container -->
 
-                            <ul class="list-unstyled">
-                            <li>Of Mice & Men, John Steinbeck</li> 
-                            <li>A Short History of Nearly Everything, Bill Bryson</li>
-                            <li>Grapes of Wrath, John Steinbeck</li>
-                            <li>The Most Powerful Idea in the World, William Rosen</li>
-                            <li>Sex at Dawn, Christopher Ryan & Cacilda Jetha</li>
-                            <li>The Bet, Paul Sabin</li>
-                            <li>The Cathedral and the Bazaar, Eric S. Raymond</li>
-                            <li>All Quiet on the Western Front, Erich Remarque</li>
-                            <li>Cosmos, Carl Sagan</li>
-                            <li>The Last Lecture, Randy Pausch</li>
-                            <li>The Bonobo and the Atheist, Frans de Waal</li>
-                            <li>Flash Boys, Michael Lewis</li>
-                            <li>The Stranger, Albert Camus</li>
-                            </ul>
+<div class="modal fade" id="OfMiceandMen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title text-center" id="myModalLabel">
+OF MICE AND MEN
+</h4>
+</div>
+<div class="modal-body">
+OF MICE AND MEN
+</div>
+<div class="modal-footer">
+OF MICE AND MEN
+</div>
+</div>
+</div>
+</div>
 
-                          </div>
-                        </div>
-                      </div>
-                      <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                              Read Before 2014
-                            </a>
-                          </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse">
-                          <div class="panel-body">
 
-                            <ul class="list-unstyled">
-                            <li>Cod, Mark Kurlansky</li>
-                            <li>The Box, Marc Levinson</li>
-                            <li>The Botany of Desire, Michael Pollan</li>
-                            <li>Four Fish, Paul Greenberg</li>
-                            <li>Code, Charles Petzold</li>
-                            <li>The Information, James Gleick</li>
-                            <li>Brave New World, Aldous Huxley</li>
-                            <li>The Golden Ticket, Lance Fortnow</li>
-                            <li>The Big Short, Michael Lewis</li>
-                            <li>Tale of Two Cities, Charles Dickens</li>
-                            <li>Under the Banner of Heaven, Jon Krakauer</li>
-                            <li>Into the Wild, Jon Krakauer</li>
-                            <li>Into Thin Air, Jon Krakauer</li>
-                            <li>A Random Walk Down Wallstreet, Burton Malkiel</li>
-                            <li>Security Analysis, David Dodd & Benjamin Graham</li>
-                            <li>East of Eden, Jon Steinbeck</li>
-                            <li>In Cold Blood, Truman Capote</li>
-                            <li>The Overachievers, Alexandra Robbins</li>
-                            <li>A Brief History of Time, Stephen Hawking</li>
-                            <li>Feynman Lectures on Computation, Richard Feynman</li>
-                            <li>Harry Potter, J.K. Rowling </li>
-                            <li>Hoot, Carl Hiaasen</li>
-                            <li>Debt, David Graeber</li>
-                            <li>Death of a Salesman, Arthur Miller</li>
-                            <li>A Separate Peace, John Knowles</li>
-                            <li>To Kill a Mockingbird, Harper Lee</li>
-                            <li>Adventures of Huckleberry Finn, Mark Twain</li>
-                            <li>The Raven, Edgar Allen Poe</li>
-                            <li>The Most Dangerous Game, Richard Connell</li>
-                            <li>The Telltale Heart, Edgar Allen Poe</li>
-                            <li>The God Particle, Leon Lederman & Dick Teresi</li>
-                            <li>Ghost in the Wires, Kevin Mitnick</li>
-                            <li>Confessions of an Economic Hit Man, John Perkins</li>
-                            <li>Lincoln's Melancholy, Joshua Shenk</li>
-                            <li>Soul of a New Machine, Tracy Kidder</li>
-                            <li>The Mythical Man-Month, Fred Brooks</li>
-                            <li>The Design of Everyday Things, Don Norman</li>
-                            <li>Coding Freedom, E. Gabriella Coleman</li>
-                            <li>Free Culture, Lawrence Lessig</li>
-                            <li>Consider the Lobster, David Foster Wallace</li>
-                            <li>Mountains of Pi, Richard Preston</li>
-                            <li>Lifelike, Susan Orlean</li>
-                            <li>The Knife, Richard Selzer</li>
-                            <li>The Zen of Programming, Geoffrey James</li>
-                            <li>Holidays on Ice, David Sedaris</li>
-                            <li>Guy Walks Into a Bar Car, David Sedaris</li>
-                            <li>The Signal and the Noise, Nate Silver</li>
-                            <li>Let Me Tell You a Story: A Lifetime in the Game, John Feinstein & Red Auerbauch</li>
-                            <li>The Idea Factory, Jon Gertner</li>
-                            <li>Why We Get Fat, Gary Taubes</li>
-                            <li>Tubes, Andrew Blum</li>
-                            <li>Sweetwater, Laurence Yep</li>
-                            <li>Lots of Goosebumps books!</li>
-                        </ul>
+<div class="modal fade" id="Longitude" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title text-center" id="myModalLabel">
+LONGITUDE
+</h4>
+</div>
+<div class="modal-body">
+LONGITUDE
+</div>
+<div class="modal-footer">
+LONGITUDE
+</div>
+</div>
+</div>
+</div>
 
-                              </div>
-                        </div>
-                      </div>
+<div class="modal fade" id="AShortHistoryofNearlyEverything" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<h4 class="modal-title text-center" id="myModalLabel">
+An Exciting Survey of the Natural Sciences 4/5
+</h4>
+</div>
+<div class="modal-body">
+<p>The success of Bill Bryson's A Short History of Nearly Everything lies in his ability to make the content of natural science serendipity as exciting and accessible to readers as it is to its practitioners. Some of the devices that he uses to achieve exciting prose are dramatically effective, whereas some of the mechanisms that he uses to achieve accessibility are a little tiresome. Ultimately, Bryson shows us why he deserves a spot in the literary canon of contemporary popular science with his audaciously-titled entry.</p><p>Prior to reading Bill Bryson's A Short History of Nearly Everything, geology did not excite me. Bryson changed my perception of geology by leveraging a powerful device that would prove thematic. The book is arranged as chronologically successive attempts at answering the most powerful questions of the natural sciences: Where do we come from? Are we alone? What are we made of?  Bryson creates an excitement about geology by asking the same questions that the upstanding membership of Victorian era geological societies excitedly sought to answer: How old is the Earth? What is the mass of the Earth? Has the Earth always looked the same?</p><p>Bryson follows the standard popular-science storytelling format by providing miniaturized biographies for each historical character. Bryson's excellent storytelling and articulated explanations obviate the need for any mathematical or symbolic descriptions. The only equation that Bryson shows is Newton's law of universal gravitation, "which is of course way beyond anything that most of us could make practical use of," Bryson laments, "but at least we can appreciate that it is elegantly compact." Bryson has some other awkward moments where he speaks apologies to the exclusively to the non-technical, non-mathematical reader, such as in the introduction. He spends four pages establishing a layperson ethos while standing amid the rubble of the fourth wall that he has broken with an opening "Welcome." But this is less a criticism of his writing as it is of subjective stylistic choices. Bryson is simply grappling with the inherent difficulties confronting a superstar author in speaking to a huge and diverse readership.</p><p>Bryson's writing is otherwise always entertaining. When he laments the lack of researchers working on a particular microscopic aquatic animal of importance to evolutionary biology, he says of the researchers, "They can be found all over the world, but you could have all the bdelloid rotifer experts in the world to dinner and not have to borrow plates from the neighbors." Such accessible eloquence is perfect for the popular science genre. Bryson, instead of dubiously enumerating an unknown but small number of scientists, gives us some cute imagery. It also has the effect of alleviating the information density with which Bryson lovingly burdens the reader in his treatise of such great length, 544 pages to be exact.</p><p>Still, after hearing so much from friends and fellow popular-science readers about A Short History of Nearly Everything, I am glad to have read it. The book manages to be accessible as a popular science starting point while still capable of holding the interest of seasoned popular science readers. With A Short History of Nearly Everything, Bryson shows himself a giant of the popular science genre.</p>
+</div>
+<div class="modal-footer">
+A Short History of Nearly Everything <small>Bill Bryson</small>
+</div>
+</div>
+</div>
+</div>
 
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                          <h4 class="panel-title">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                Quit While Reading
-                            </a>
-                          </h4>
-                        </div>
-                        <div id="collapseFour" class="panel-collapse collapse">
-                          <div class="panel-body">
-
-                    <ul class="list-unstyled">
-                        <li>The Tipping Point, Malcolm Gladwell</li>
-                        <li>Undaunted Courage, Stephen Ambrose</li>
-                        <li>Republican Gomorrah, Max Blumenthal</li>
-                    </ul>
-
-                           </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-            </div><!-- /row -->
-	</div><!-- /container -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.min.js"></script>
-  </body>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
 </html>
