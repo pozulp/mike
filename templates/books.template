@@ -65,12 +65,12 @@
                       <div class="panel panel-default">
                         <div class="panel-heading">
                           <div class="panel-title text-center">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseCur">
                               Currently Reading
                             </a>
                           </div>
                         </div>
-                        <div id="collapseOne" class="panel-collapse collapse in">
+                        <div id="collapseCur" class="panel-collapse collapse in">
                           <div class="panel-body">
                               <div class="list-group">
                                   CURRENTLY READING
@@ -81,12 +81,28 @@
                       <div class="panel panel-default">
                         <div class="panel-heading">
                           <div class="panel-title text-center">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2015">
+                              Read in 2015
+                            </a>
+                          </div>
+                        </div>
+                        <div id="collapse2015" class="panel-collapse collapse">
+                          <div class="panel-body">
+                              <div class="list-group">
+                                  READ IN 2015
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <div class="panel-title text-center">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2014">
                               Read in 2014
                             </a>
                           </div>
                         </div>
-                        <div id="collapseTwo" class="panel-collapse collapse">
+                        <div id="collapse2014" class="panel-collapse collapse">
                           <div class="panel-body">
                               <div class="list-group">
                                   READ IN 2014
@@ -97,12 +113,12 @@
                       <div class="panel panel-default">
                         <div class="panel-heading">
                           <div class="panel-title text-center">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsePre2014">
                               Read Before 2014
                             </a>
                           </div>
                         </div>
-                        <div id="collapseThree" class="panel-collapse collapse">
+                        <div id="collapsePre2014" class="panel-collapse collapse">
                           <div class="panel-body">
                               <div class="list-group">
                                   READ BEFORE 2014
@@ -114,12 +130,12 @@
                     <div class="panel panel-default">
                         <div class="panel-heading">
                           <div class="panel-title text-center">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseQuit">
                                 Quit While Reading
                             </a>
                           </div>
                         </div>
-                        <div id="collapseFour" class="panel-collapse collapse">
+                        <div id="collapseQuit" class="panel-collapse collapse">
                           <div class="panel-body">
                               <div class="list-group">
                                   QUIT WHILE READING

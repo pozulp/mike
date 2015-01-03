@@ -3,8 +3,10 @@ N, Applied Cryptography, Bruce Schneier
 N, Skunk Works, Ben Rich & Leo Janos 
 N, Ishmael, Daniel Quinn 
 N, The Better Angels of our Nature, Steven Pinker 
-N, A Thread Across the Ocean, John Steele Gordon
 N, Fahrenheit 451, Ray Bradbury
+
+Read in 2015
+N, A Thread Across the Ocean, John Steele Gordon
 
 Read in 2014
 N, Longitude, Dava Sobel 
