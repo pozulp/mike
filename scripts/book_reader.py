@@ -26,9 +26,10 @@ Review                  - All of the text of the review
 
 import sys
 
-BOOK_LIST = 'books.txt'
-BOOK_REVIEWS = 'reviews.txt'
+BOOK_LIST = 'books/books.txt'
+BOOK_REVIEWS = 'books/reviews.txt'
 TEMPLATE = 'templates/books.template'
+OUT_FILE = 'books/books.gen.html'
 
 # For books with a review, use modal 
 HAS_REVIEW_OPEN = '<a href="#" class="list-group-item text-center" data-toggle="modal" data-target="#{}">'
@@ -152,7 +153,7 @@ def make_book_page():
     template = [x + '\n' for x in template]
 
     # Write the completed template to a file
-    fo = open('books.gen.html', 'w+')
+    fo = open(OUT_FILE, 'w+')
     fo.writelines(template)
     fo.close()
 

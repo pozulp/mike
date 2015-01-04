@@ -6,21 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
     <title>Mike's Book List</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
 
     <!-- Font Awesome CSS (for icons) -->
-    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="../assets/css/font-awesome.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/main.css" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="icon" href="assets/img/mp.ico" sizes="16x16 32x32 48x48 64x64 128x128"
+    <link rel="icon" href="../assets/img/mp.ico" sizes="16x16 32x32 48x48 64x64 128x128"
     type="image/vnd.microsoft.icon">
 
     <!-- Collapsable accordion JS -->
@@ -44,14 +43,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Mike</a>
+          <a class="navbar-brand" href="/">Mike</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
-            <li><a href="projects.html"><i class="fa fa-archive"></i>Projects</a></li>
-            <li><a href="books.html"><i class="fa fa-book"></i>Books</a></li>
-            <li><a href="blog.html"><i class="fa fa-pencil"></i>Blog</a></li>
+            <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="/projects"><i class="fa fa-archive"></i>Projects</a></li>
+            <li><a href="/books"><i class="fa fa-book"></i>Books</a></li>
+            <li><a href="/blog"><i class="fa fa-pencil"></i>Blog</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -59,7 +58,7 @@
 	
 	<div class="container pt">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
 
                     <div class="panel-group" id="accordion">
                       <div class="panel panel-default">
@@ -209,6 +208,6 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -226,3 +226,8 @@ bt {
 .modal .modal-dialog {
     width: 80%;
 }
+
+/* Limit container size to 750px */
+.container {
+    max-width: 750px;
+}
