@@ -59,7 +59,7 @@ N, The God Particle, Leon Lederman & Dick Teresi
 N, Ghost in the Wires, Kevin Mitnick
 N, Confessions of an Economic Hit Man, John Perkins
 N, Lincoln's Melancholy, Joshua Shenk
-N, Soul of a New Machine, Tracy Kidder
+N, The Soul of a New Machine, Tracy Kidder
 N, The Mythical Man-Month, Fred Brooks
 N, The Design of Everyday Things, Don Norman
 N, Coding Freedom, E. Gabriella Coleman
