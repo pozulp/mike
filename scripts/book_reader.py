@@ -26,10 +26,10 @@ Review                  - All of the text of the review
 
 import sys
 
-BOOK_LIST = 'books/books.txt'
-BOOK_REVIEWS = 'books/reviews.txt'
-TEMPLATE = 'templates/books.template'
-OUT_FILE = 'books/books.gen.html'
+BOOK_LIST = 'reading/books.txt'
+BOOK_REVIEWS = 'reading/reviews.txt'
+TEMPLATE = 'templates/reading.template'
+OUT_FILE = 'reading/reading.gen.html'
 
 # For books with a review, use modal 
 HAS_REVIEW_OPEN = '<a href="#" class="list-group-item text-center" data-toggle="modal" data-target="#{}">'
