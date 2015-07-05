@@ -1,15 +1,13 @@
 Currently Reading
-N, Applied Cryptography, Bruce Schneier 
-N, Skunk Works, Ben Rich & Leo Janos 
-N, Ishmael, Daniel Quinn 
 N, The Better Angels of our Nature, Steven Pinker 
-N, American Catch, Paul Greenberg
-N, Negotiation Genius, Malhotra and Bazerman
 
 Read in 2015
 N, Fahrenheit 451, Ray Bradbury
 N, Mother Earth Mother Board, Neal Stephenson
 N, A Thread Across the Ocean, John Steele Gordon
+N, Negotiation Genius, Malhotra and Bazerman
+N, American Catch, Paul Greenberg
+N, The Making of the Atomic Bomb, Richard Rhodes
 
 Read in 2014
 N, Longitude, Dava Sobel 
@@ -34,6 +32,7 @@ N, The Botany of Desire, Michael Pollan
 N, Four Fish, Paul Greenberg
 N, Code, Charles Petzold
 N, The Information, James Gleick
+N, Applied Cryptography, Bruce Schneier 
 N, Brave New World, Aldous Huxley
 N, The Golden Ticket, Lance Fortnow
 N, The Big Short, Michael Lewis
