@@ -231,3 +231,8 @@ bt {
 .container {
     max-width: 750px;
 }
+
+/* make font for recipe list bigger */
+.recipe {
+    font-size: 15px;
+}
