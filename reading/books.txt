@@ -3,6 +3,7 @@ N, The Better Angels of our Nature, Steven Pinker
 
 Read in 2015
 N, Command and Control, Eric Schlosser
+N, The Visual Display of Quantitative Information, Edward R. Tufte
 N, The Making of the Atomic Bomb, Richard Rhodes
 N, American Catch, Paul Greenberg
 N, Negotiation Genius, Malhotra and Bazerman
