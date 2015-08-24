@@ -147,45 +147,6 @@
               </div><!-- /row -->
             </div><!-- /container -->
 
-<div class="modal fade" id="OfMiceandMen" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-center" id="myModalLabel">
-            OF MICE AND MEN
-        </h4>
-      </div>
-      <div class="modal-body">
-          OF MICE AND MEN
-      </div>
-      <div class="modal-footer">
-          OF MICE AND MEN
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="modal fade" id="Longitude" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title text-center" id="myModalLabel">
-          LONGITUDE
-        </h4>
-      </div>
-      <div class="modal-body">
-          LONGITUDE
-      </div>
-      <div class="modal-footer">
-          LONGITUDE
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="modal fade" id="AShortHistoryofNearlyEverything" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -200,6 +161,24 @@
       </div>
       <div class="modal-footer">
           A SHORT HISTORY OF NEARLY EVERYTHING
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="CommandandControl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title text-center" id="myModalLabel">
+          COMMAND AND CONTROL
+        </h4>
+      </div>
+      <div class="modal-body">
+          COMMAND AND CONTROL
+      </div>
+      <div class="modal-footer">
+          COMMAND AND CONTROL
       </div>
     </div>
   </div>
