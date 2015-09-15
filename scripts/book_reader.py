@@ -32,7 +32,8 @@ TEMPLATE = 'templates/reading.template'
 OUT_FILE = 'reading/reading.gen.html'
 
 # For books with a review, use modal 
-HAS_REVIEW_OPEN = '<a href="#" class="list-group-item text-center" data-toggle="modal" data-target="#{}">'
+HAS_REVIEW_OPEN = '<a href="#" class="list-group-item text-center" data-toggle="modal" data-target="#{}"> \
+                   <span style="float:left"> <i class="fa fa-book"></i></span>'
 HAS_REVIEW_CLOSE = '</a>'
 
 # For books without a review, don't use modal
