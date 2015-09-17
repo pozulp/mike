@@ -31,18 +31,23 @@ BOOK_REVIEWS = 'reading/reviews.txt'
 TEMPLATE = 'templates/reading.template'
 OUT_FILE = 'reading/reading.gen.html'
 
-# For books with a review, use modal 
-HAS_REVIEW_OPEN = '<a href="#" class="list-group-item text-center" data-toggle="modal" data-target="#{}"> \
-                   <span style="float:left"> <i class="fa fa-book"></i></span>'
-HAS_REVIEW_CLOSE = '</a>'
+# For books with a review, use modal and icon indicating reviwed
+LEFT_ALIGNED_REVIEWED_INDICATOR = '<span style="float:right"> <i class="fa fa-book"></i> </span>'
+HAS_REVIEW_OPEN = '<a href="#" class="list-group-item" data-toggle="modal" data-target="#{}">'
+HAS_REVIEW_CLOSE = LEFT_ALIGNED_REVIEWED_INDICATOR + '</a>'
 
 # For books without a review, don't use modal
-NO_REVIEW_OPEN = '<div class="list-group-item text-center">'
+NO_REVIEW_OPEN = '<div class="list-group-item">'
 NO_REVIEW_CLOSE = '</div>'
 
 # Used to offset the author with smaller text
 SM_OPEN = '<small>'
 SM_CLOSE = '</small>'
+
+# HTML UTF code for stars
+STAR_FILLED = '&#x2605;'
+STAR_EMPTY  = '&#x2606;'
+POSSIBLE_STARS = 5
 
 # Finds heading in template and replaces it with the sublist
 # Retuns a list of books that have reviews 
@@ -54,7 +59,7 @@ def replace_accordion(heading, sublist, template):
 
     for item in sublist:
 
-        read, title, author = tuple(item.split(", "))
+        read, rating, title, author = tuple(item.split(", "))
 
         # If the book has no review, don't link to a modal
         if read == 'N':
@@ -66,6 +71,12 @@ def replace_accordion(heading, sublist, template):
             title_target = "".join(title.split())
             strlist += HAS_REVIEW_OPEN.format(title_target)
 
+        # Add the star-rating left-aligned, preceeding the centered title & author,
+        # the rating format is x/5 where x is the number of stars out of a total of 5
+        stars = int(rating.split("/")[0])
+        strlist += STAR_FILLED * stars + STAR_EMPTY * (POSSIBLE_STARS - stars) + " "
+
+        # Add the centered title and smaller-text author
         strlist += title + " " + SM_OPEN + author + SM_CLOSE 
 
         # If the book has no review, don't link to a modal
@@ -91,7 +102,15 @@ def replace_reviews(template):
 
         book_title, author = tuple(reviews[0].split(", "))
 
-        review_title = reviews[1]
+        # The review title line is of the format
+        # EXAMPLE FORMAT ------> Exciting Survey of the Natural Sciences 4/5
+        # So we want to break off the title, then break off the number of stars
+
+        review_title_line = reviews[1].split()
+
+        rating = review_title_line.pop()
+        stars = int(rating.split("/")[0])
+        review_title = ' '.join(review_title_line)
 
         # Get the review body which is of arbitrary length
         i = 2
@@ -110,9 +129,16 @@ def replace_reviews(template):
         # Of Mice and Men -----> OF MICE AND MEN
         key = book_title.upper()
 
-        # Replace the modal title with the review title
+        # Replace the modal title with the review title on first line, 
+        # then a new line with the rating in stars
+
+        modal_title = review_title
+
+        star_line = '<h4 class="text-center">' + STAR_FILLED * stars + STAR_EMPTY * (POSSIBLE_STARS - stars) + '</h4>'
+        modal_title += star_line
+
         i = template.index(key)
-        template[i] = review_title
+        template[i] = modal_title
 
         # Replace the modal body with the review content
         i = template.index(key)

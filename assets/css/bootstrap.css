@@ -5547,7 +5547,7 @@ a.thumbnail.active {
 }
 
 a.list-group-item {
-  color: #555555;
+  /* color: #555555; leave modal links blue */
 }
 
 a.list-group-item .list-group-item-heading {
