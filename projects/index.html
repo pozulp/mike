@@ -55,6 +55,25 @@
       </div>
     </div>
 	
+	<!-- +++++ Graphics Figurine Section +++++ -->
+	
+	<div class="container pt">
+            <div class="row">
+                <div class="col-xs-12 centered">
+                    <a id="figurein"><h3>FIGURINE</h3></a>
+                </div>
+            </div><!-- /row -->
+            <div class="row">
+                <div class="col-lg-12 centered">
+                    <h3><small>Computer Graphics Still Life</small></h3>
+                    <hr>
+                    <a href="#" class="list-group-item" data-toggle="modal" data-target="#Figurine">
+                    <img class="img-responsive center-block" src="/assets/img/portfolio/figurine.png" alt="">
+                    </a>
+                </div>
+            </div><!-- /row -->
+
+	</div><!-- /container -->
 	
 	<!-- +++++ Jobprobe Projects Section +++++ -->
 	
@@ -66,7 +85,7 @@
             </div><!-- /row -->
             <div class="row">
                 <div class="col-lg-12 centered">
-                    <h3><small>A Graphical Display of Distributed Computing</small></h3>
+                    <h3><small>Graphical Display of Distributed Computing</small></h3>
                     <hr>
                     <img class="img-responsive center-block" src="/assets/img/portfolio/jobprobe.png" alt="">
                 </div>
@@ -84,7 +103,7 @@
             </div><!-- /row -->
             <div class="row">
                 <div class="col-lg-12 centered">
-                    <h3><small>A Graphical Display of Node Data</small></h3>
+                    <h3><small>Graphical Display of Node Data</small></h3>
                     <hr>
                     <img class="img-responsive center-block" src="/assets/img/portfolio/nodeprobe.png" alt="">
                 </div>
@@ -159,6 +178,30 @@
                 </div>
             </div><!-- /row -->
 	</div><!-- /container -->
+
+<div class="modal fade" id="Figurine" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title text-center" id="myModalLabel"> Figurine </h4>
+                <h4 class="text-center">Computer Graphics Still Life</h4>
+</div>
+<div class="modal-body">
+    <img class="img-responsive center-block" style="max-width:1600px max-height:900px" src="/assets/img/portfolio/figurine.png" alt="">
+        <p style="margin-top: 25px">
+            We used Maya to model the picture frames, blinds and window, banister, jewelry, and the string of Christmas lights. We found the frog, elephant, dummy figurine, and shot glass models online. The models we found online had to be edited to meet the standard of our scene. The dummy model was smoothed for better image quality. The light bulb model we remade ourselves to correct the normals and remove jagged edges. We positioned all the models in Maya and used full-body inverse kinematics hooks for the dummy. We wrote python and Mel scripts to create the pearls and chain, then performed a rigid-body gravity simulation to hang them in a natural position on the dummy. We made the light string procedurally by extruding along a path. There are 22 attenuated volumetric lights (one inside and one above each of the eleven Christmas lights) and an un-attenuated overhead point light. Our implementation of volumetric lighting softens the reflections in the banister and blends the colored light hitting the background of the scene. We implemented depth of field to softly blur objects on the back wall and draw attention to objects in focus on the banister. The photos we took ourselves. Our inspiration was a friend's jewelry tree in her dorm room.
+        </p>
+        <p style="margin-bottom: 0px">
+            The image resolution is 1600x900, rendered with 1024 rays-per-pixel. We implemented processor-parallel rendering by breaking up 1600x900 into 100 chunks of 160x90 and rendering across various clusters at LLNL. A post-processing step using the FreeImage API composes the chunks into the final image. We broke out much of the time-sensitive computation parameters, such as rays-per-pixel, as command-line arguments. We wrote code to read from a 51 x 11 google sheet (each of 51 objects in the scene have 11 properties) and a 22 x 6 google sheet (each of 22 lights in the scene have 6 properties) to build the scene. The flexibility of being able to rearrange our entire scene by editing a google sheet, and the ability to change the time-sensitive parameters of the chunked raytracer in subsequent command-line invocations, allowed us to achieve the most aesthetic scene arrangement and best possible rendering of our image.
+        </p>
+</div>
+<div class="modal-footer">
+CS148 Introduction to Computer Graphics <small>Stanford University</small>
+</div>
+</div>
+</div>
+</div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
