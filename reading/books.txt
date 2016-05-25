@@ -1,4 +1,6 @@
 Read in 2016
+N, 3/5, Nuclear Rites, Hugh Gusterson
+N, 5/5, Genius, James Gleick
 N, 4/5, Dark Sun, Richard Rhodes
 N, 4/5, Common Sense on Mutual Funds, John C. Bogle
 
