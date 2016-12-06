@@ -1,4 +1,5 @@
 Read in 2016
+N, 3/5, Isaac Newton, James Gleick
 N, 4/5, American Prometheus, Kai Bird and Martin J. Sherwin
 N, 4/5, Operation Crossroads, Jonathan Weisgall
 Y, 5/5, Now It Can Be Told, Leslie R. Groves
