@@ -1,4 +1,7 @@
 Read in 2017
+N, 4/5, The Amber Spyglass, Philip Pullman
+N, 4/5, The Subtle Knife, Philip Pullman
+N, 4/5, Northern Lights, Philip Pullman
 N, 2/5, The Undoing Project, Michael Lewis
 
 Read in 2016
