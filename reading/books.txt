@@ -1,4 +1,7 @@
 Read in 2017
+N, 4/5, My Promised Land, Ari Shavit
+N, 4/5, Persepolis, Marjane Satrapi
+N, 4/5, A Peace to End All Peace, David Fromkin
 N, 3/5, Quantum: A Guide for the Perplexed, Jim Al-Khalili
 N, 4/5, The Rise and Fall of the Third Reich, William L. Shirer
 N, 5/5, The Return of the King, J. R. R. Tolkien
