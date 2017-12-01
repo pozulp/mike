@@ -13,6 +13,7 @@ N, 4/5, The Rise and Fall of the Third Reich, William L. Shirer
 N, 5/5, The Return of the King, J. R. R. Tolkien
 N, 5/5, The Two Towers, J. R. R. Tolkien
 N, 5/5, The Fellowship of the Ring, J. R. R. Tolkien
+N, 5/5, The Hobbit, J. R. R. Tolkien
 N, 3/5, The Hitchhiker's Guide to the Galaxy, Douglas Adams
 N, 4/5, The Catcher in the Rye, J. D. Salinger
 N, 4/5, The Amber Spyglass, Philip Pullman
