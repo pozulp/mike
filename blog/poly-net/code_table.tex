@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage[margin=1.5in]{geometry}
+\pagenumbering{gobble}
+
+% Create page-wide tables
+\usepackage{tabularx}
+% Redefine tabularx X column type so it is an m column instead of p column
+% because we are using an m column for the fixed-length column
+% https://tex.stackexchange.com/questions/40581/centering-cells-of-a-tabular-column-using-m
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\begin{document}
+  \begin{tabularx}{\textwidth}{| r | X | X |}\hline
+              & Learning with data & Learning an equation \\ \hline
+    Training  & \textbf{for datum in training data:}\par 
+                \hspace{3mm} pass \textbf{datum} through network \par
+                \hspace{3mm} evaluate loss function \par
+                \hspace{3mm} backprop to compute gradient \par
+                \hspace{3mm} update network parameters &
+                \textbf{while not converged:}\par
+                \hspace{3mm} pass \textbf{x} through network \par
+                \hspace{3mm} evaluate loss function \par
+                \hspace{3mm} backprop to compute gradient \par
+                \hspace{3mm} update network parameters \\ \hline
+    Inference & for datum in \textbf{test data:}\par 
+                \hspace{3mm} pass datum through network \par & 
+                \hspace{3mm} pass \textbf{x} through network \par \\ \hline
+  \end{tabularx}
+\end{document}

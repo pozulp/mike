@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Mike Pozulp's Blog</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS (for icons) -->
+    <link href="/assets/css/font-awesome.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/main.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/img/mp.ico" sizes="16x16 32x32 48x48 64x64 128x128"
+    type="image/vnd.microsoft.icon">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/">Mike Pozulp</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+          <li class="active"><a href="/blog"><i class="fa fa-pencil"></i>Blog</a></li>
+        </ul>
+      </div>
+    </div>
+	
+	<!-- +++++ Post +++++ -->
+	<div id="white">
+	    <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p><img src="/assets/img/nasaComposite.png" width="50px" height="50px"> <ba>Mike Pozulp</ba></p>
+                        <p><bd>February 26, 2020</bd></p>
+                        <h4>Using a Neural Network to Solve a Polynomial</h4>
+                        <p> Design and execution of an unconventional polynomial solver. </p>
+<p>
+In the fall of 2018 I met a very talented machine learning practitioner who showed me how to solve an integro-differential equation using a neural network. He had considerable experience designing and implementing neural networks as well as knowledge of the theory. This post is a baby step in my pursuit of his knowledge.
+</p>
+
+<p>
+Before jumping in to more complicated equations he started with a simple polynomial.
+</p>
+
+<p>
+<figure>
+  <img class="center-block" src="poly_eqn.png" alt="polynomial equation">
+  <figcaption class="figure-caption">Equation 1: A polynomial function.</figcaption>
+</figure>
+</p>
+
+<p>
+According to the universal approximation theorem, all we need to do to find y is to pass x through a feed-forward network with a single hidden layer. Here is one such network.
+</p>
+
+<p>
+<figure>
+  <img class="figure-img img-fluid rounded center-block" src="net_fig.png" alt="network architecture figure">
+  <figcaption class="figure-caption">Figure 1: A fully-connected feed-forward network with a single hidden layer.</figcaption>
+</figure>
+</p>
+
+<p>
+Because polynomials are functions there is one y value that corresponds to each x value, so we will use the same number of nodes in the input layer and output layer, meaning d and N will be equal.
+</p>
+
+<h5> Learning with data versus learning an equation </h5>
+
+<p>
+In traditional learning applications like image classification we would partition our image set into training images and test images, select a loss function, and then pass the training images through the network. Learning an equation, by contrast, does not employ a data set. To solve our polynomial we create a single vector of one hundred coordinates on the x-axis uniformly spaced between -3 and 3 which we pass through the network over and over again until we achieve the convergence criterion.
+</p>
+
+<p>
+<figure>
+  <img class="figure-img img-fluid rounded center-block" src="code_table.png" alt="learning algorithm comparison table">
+  <figcaption class="figure-caption">Table 1: Pseudocode comparison of learning with data versus learning an equation with differences highlighted in bold.</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+  <img class="center-block" src="conv_crit_eqn.png" alt="convergence criterion equation">
+  <figcaption class="figure-caption">Equation 2: The convergence criterion. t is the epoch index and epsilon is a small, user-defined quantity. When the loss stops changing by more than epsilon we stop training. </figcaption>
+</figure>
+</p>
+
+<p>
+Our loss function contains the polynomial that we are approximating. In traditional learning applications a single loss function may be applied to multiple problem domains. Here, because the loss function contains the equation, a different loss function would be necessary for learning a different equation.
+</p>
+
+<p>
+<figure>
+  <img class="center-block" src="loss_eqn.png" alt="loss function equation">
+  <figcaption class="figure-caption">Equation 3: The loss function. Both x and y-hat are bolded to indicate they are vectors. y has a hat to indicate that it is an approximation of the actual polynomial function y. We convert the loss from a vector quantity to a scalar quantity by application of the Frobenius norm. </figcaption>
+</figure>
+</p>
+
+<p>
+The optimizer is responsible for updating the network parameters such that the next pass results in a smaller loss. We employ the Adam optimizer, which is a popular variation on stochastic gradient descent.
+</p>
+
+<h5> Learning the polynomial </h5>
+
+<p>
+We use PyTorch to implement our <a href="poly.py">model</a>.
+</p>
+
+<p>
+<figure>
+  <img class="figure-img img-fluid rounded center-block" src="version_table.png" alt="model inputs table">
+  <figcaption class="figure-caption">Table 2: Model dependencies. </figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+  <img class="figure-img img-fluid rounded center-block" src="model_inputs_table.png" alt="model inputs table">
+  <figcaption class="figure-caption">Table 3: Model inputs. </figcaption>
+</figure>
+</p>
+
+<p>
+We provide the extent of the domain when we run the model: "poly.py -3 3". On my Ryzen 5 2400g it takes just 3.5 seconds to converge.
+</p>
+
+<p>
+<figure>
+  <img class="center-block" src="solution_plot.png" alt="solution plot">
+  <figcaption class="figure-caption">Figure 2: The solution plotted at different epochs. The approximation converges to the analytic solution (Equation 1). The convergence criterion was achieved after 5716 epochs.</figcaption>
+</figure>
+</p>
+
+<p>
+<figure>
+  <img class="center-block" src="loss_plot.png" alt="loss plot">
+    <figcaption class="figure-caption">Figure 3: The loss as a function of epoch. The rate of convergence is highest at the beginning of training and lowest at the end, which means the marginal value of an epoch decreases with epoch, but the decrease is not exactly monotonic. It lurches. </figcaption>
+</figure>
+</p>
+
+<h5> Where to go from here </h5>
+
+<p>
+We could solve more interesting equations, like differential equations, integro-differential equations, and multivariate equations. We could also try to understand our network better with a parameter study where we try changing network qualities. Examples include 
+</p>
+<p>
+<ul>
+  <li>learning rate</li>
+  <li>optimizer</li>
+  <li>number of hidden layers</li>
+  <li>number of nodes in the hidden layer(s)</li>
+  <li>number of nodes in the input/output layers</li>
+  <li>network connectivity</li>
+</ul>
+</p>
+
+<p>
+We could try interpolating and extrapolating. We could also look at the performance profile of the network. We could try using a GPU.
+</p>
+
+<p>
+Send me your suggestions. My email is in my <a href="/PozulpResume.pdf">resume</a>.
+</p>
+
+                        <hr>
+                        <p><a href="/blog">Back</a></p>
+                    </div> <!-- /col -->
+                </div> <!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /white -->
+	
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

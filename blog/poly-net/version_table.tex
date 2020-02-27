@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage[margin=1.5in]{geometry}
+\pagenumbering{gobble}
+
+% Create page-wide tables
+\usepackage{tabularx}
+% Redefine tabularx X column type so it is an m column instead of p column
+% because we are using an m column for the fixed-length column
+% https://tex.stackexchange.com/questions/40581/centering-cells-of-a-tabular-column-using-m
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\begin{document}
+  \begin{tabular}{|c | c|}
+    \hline
+    Dependency & Version \\
+    \hline
+    python  & 3.8.1 \\
+    pytorch & 1.3.1 \\
+    numpy   & 1.18.0 \\
+    \hline
+  \end{tabular}
+\end{document}

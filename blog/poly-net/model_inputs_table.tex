@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage[margin=1.5in]{geometry}
+\pagenumbering{gobble}
+
+% Create page-wide tables
+\usepackage{tabularx}
+% Redefine tabularx X column type so it is an m column instead of p column
+% because we are using an m column for the fixed-length column
+% https://tex.stackexchange.com/questions/40581/centering-cells-of-a-tabular-column-using-m
+\renewcommand\tabularxcolumn[1]{m{#1}}
+
+\begin{document}
+  \begin{tabular}{|c | c | c |}
+    \hline
+    Parameter & Value & Description\\
+    \hline
+    $d$             & 100   & Number of nodes in the input layer\\
+    $N$             & 100   & Number of nodes in the output layer\\
+    $\epsilon$      & 1e-3  & Convergence criterion value \\
+    $k$             & 5     & Number of hidden layer nodes in NN\\
+    $start$         & -3    & The minimum input\\
+    $end $          & 3     & The maximum input\\
+    \hline
+  \end{tabular}
+\end{document}
