@@ -1,52 +1,35 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
-{\colortbl;\red255\green255\blue255;}
-{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid1\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}}
-{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
-\margl1440\margr1440\vieww10020\viewh7280\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
-\f0\fs24 \cf0 Betty Crocker Scrumptious Apple Pie\
-https://www.bettycrocker.com/recipes/scrumptious-apple-pie/c9a4acc6-85aa-4128-b0b0-1a17bdbe05e0\
-\
-1/4 cup sugar\
-1/4 cup flour\
-1/2 tsp cinnamon\
-1/2 tsp nutmeg\
-1/8 tsp salt\
-8 cups granny smith apples (8 medium apples)\
-2 tbs butter\
-\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+-----------------
+Betty Crocker Scrumptious Apple Pie
+https://www.bettycrocker.com/recipes/scrumptious-apple-pie/c9a4acc6-85aa-4128-b0b0-1a17bdbe05e0
 
-\f1\fs22 \cf0 \CocoaLigature0 Heat oven to 425\'baF. Prepare Double-Crust Pastry.
-\f0\fs24 \CocoaLigature1 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
-\cf0 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
+1/4 cup sugar
+1/4 cup flour
+1/2 tsp cinnamon
+1/2 tsp nutmeg
+1/8 tsp salt
+8 cups granny smith apples (8 medium apples)
+2 tbs butter
 
-\f1\fs22 \cf0 \CocoaLigature0 Mix sugar, flour, cinnamon, nutmeg and salt in large bowl. Stir in apples. Turn into pastry-lined pie plate. Dot with butter. Trim overhanging edge of pastry 1/2 inch from rim of plate.\
-\
-Roll other round of pastry. Fold into fourths and cut slits so steam can escape. Unfold top pastry over filling; trim overhanging edge 1 inch from rim of plate. Fold and roll top edge under lower edge, pressing on rim to seal; flute as desired. Cover edge with 3-inch strip of aluminum foil to prevent excessive browning. Remove foil during last 15 minutes of baking.\
-\
+Heat oven to 425ºF. Prepare Double-Crust Pastry.
+
+Mix sugar, flour, cinnamon, nutmeg and salt in large bowl. Stir in apples. Turn into pastry-lined pie plate. Dot with butter. Trim overhanging edge of pastry 1/2 inch from rim of plate.
+
+Roll other round of pastry. Fold into fourths and cut slits so steam can escape. Unfold top pastry over filling; trim overhanging edge 1 inch from rim of plate. Fold and roll top edge under lower edge, pressing on rim to seal; flute as desired. Cover edge with 3-inch strip of aluminum foil to prevent excessive browning. Remove foil during last 15 minutes of baking.
+
 Bake 40 to 50 minutes or until crust is brown and juice begins to bubble through slits in crust. Serve warm if desired.
-\f0\fs24 \CocoaLigature1 \
-\pard\tx220\tx720\pardeftab720\li720\fi-720
-\ls1\ilvl0\cf0 \
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
-\cf0 \
-Betty Crocker Double-Crust Pastry (as the crust)\
-https://www.bettycrocker.com/recipes/double-crust-pastry-10-inch-pie/6e9d58ef-dffc-4c6a-b180-df312ff69937\
-\
-2 2/3 cup flour\
-1 tsp salt\
-1 cup shortening\
-5 to 6 tbs vodka\
-\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
 
-\f1\fs22 \cf0 \CocoaLigature0 Mix flour and salt in medium bowl. Cut in shortening, using pastry blender (or pulling 2 table knives through ingredients in opposite directions), until particles are size of small peas. Sprinkle with cold water, 1 tablespoon at a time, tossing with fork until all flour is moistened and pastry almost leaves side of bowl (1 to 2 teaspoons more water can be added if necessary).\
-\
-Gather pastry into a ball. Divide in half and shape into 2 flattened rounds on lightly floured surface. Wrap flattened rounds of pastry in plastic wrap and refrigerate about 45 minutes or until dough is firm and cold, yet pliable. This allows the shortening to become slightly firm, which helps make the baked pastry more flaky. If refrigerated longer, let pastry soften slightly before rolling.\
-\
-Roll one round on lightly floured surface, using floured rolling pin, into circle 2 inches larger than upside-down 10-inch glass pie plate. Fold pastry into fourths; place in pie plate. Unfold and ease into plate, pressing firmly against bottom and side.}
+
+Betty Crocker Double-Crust Pastry (as the crust)
+https://www.bettycrocker.com/recipes/double-crust-pastry-10-inch-pie/6e9d58ef-dffc-4c6a-b180-df312ff69937
+
+2 2/3 cup flour
+1 tsp salt
+1 cup shortening
+5 to 6 tbs vodka
+
+Mix flour and salt in medium bowl. Cut in shortening, using pastry blender (or pulling 2 table knives through ingredients in opposite directions), until particles are size of small peas. Sprinkle with cold water, 1 tablespoon at a time, tossing with fork until all flour is moistened and pastry almost leaves side of bowl (1 to 2 teaspoons more water can be added if necessary).
+
+Gather pastry into a ball. Divide in half and shape into 2 flattened rounds on lightly floured surface. Wrap flattened rounds of pastry in plastic wrap and refrigerate about 45 minutes or until dough is firm and cold, yet pliable. This allows the shortening to become slightly firm, which helps make the baked pastry more flaky. If refrigerated longer, let pastry soften slightly before rolling.
+
+Roll one round on lightly floured surface, using floured rolling pin, into circle 2 inches larger than upside-down 10-inch glass pie plate. Fold pastry into fourths; place in pie plate. Unfold and ease into plate, pressing firmly against bottom and side.

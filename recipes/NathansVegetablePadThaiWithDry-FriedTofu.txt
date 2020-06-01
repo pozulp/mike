@@ -1,64 +1,60 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf510
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-\margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
 
-\f0\fs24 \cf0 Vegetable Pad Thai with Dry-Fried Tofu\
-from \ul Thug Kitchen\ulnone \
-\
-Sauce\
-1/4 cup lime juice\
-1/4 cup soy sauce or tamari\
-3 tablespoons water\
-3 tablespoons brown sugar\
-3 tablespoons tomato paste\
-3 tablespoons rice vinegar\
-\
-Noodles\
-14 oz rice noodles\
-1 medium crown of broccoli\
-1/3 cup sliced shallots or a big yellow onion\
-4 cloves garlic, minced\
-1 cup sliced green onions\
-1/4 cup roughly chopped cilantro\
-2 tsp neutral-tasting oil\
-Dry-Fried Tofu (see bottom of recipe)\
-\
-Toppings\
-2 cups thinly sliced cabbage\
-1 carrot, thinly sliced into matchsticks\
-1 cup bean sprouts\
-chopped peanuts\
-lime wedges\
-\
-1. Mix together all the stuff for the sauce in a medium glass\
-\
-2. Cook your noodles according to the package directions. Rinse with cold water. Chop up the broccoli into pieces no bigger than a quarter and get all the rest of your veggies and herbs on lock. Get ready to stir-fry.\
-\
-3. Now that you've got everything lined up, heat the oil over medium heat in a big skillet or wok. When the pan is hot, add the shallots and stir-fry those fuckers until they start to char around the edges, about 2 minutes. Add the broccoli and keep that shit up for another 2 minutes until the broccoli is kinda charred but isn't limp as fuck. Now add the garlic and fry it up for another 30 seconds. Gently add the noodles and 1/3 cup of the sauce and toss that shit all around to make sure everything is covered. Keep stirring and fold in the tofu. Cook of ran other 30 seconds to a minute to make sure the sauce is nice and absorbed. Keep adding more tablespoons of sauce until it is exactly how you like it. Turn off the heat and fold in the green onions and cilantro.\
-\
-4. Serve this mount of deliciousness right away piled high on a plate next to the cabbages, carrots, bean sprouts, and topped with the peanuts. Have some lime wedges shoved in there and squeeze that shit over it before you dig in.\
-\
-\
-\
-Dry-Fried Tofu\
-from \ul Thug Kitchen\ulnone \
-\
-1 block extra-firm tofu, pressed for at least 30 minutes (see below)\
-\
-1. Cut the tofu vertically into planks about 1/4 inch thick and then cut those planks in half widthwise. You should end up with around 20 squarish pieces.\
-\
-2. Preheat a large wok or cast-iron skillet over medium heat. Once the pan is hot, add the tofu in a single layer. You might have to do this in two batches depending on the size of your pan. You'll want the tofu to sizzle once it hits the pan so if that shit is quiet, turn up the heat a little.\
-\
-3. Sprinkle a pinch of salt over the tofu and start gently pressing down on the tofu with your spatula. You'll hear the steam escape from under the tofu as you do this. It sounds like screams, but keep the fuck on. Don't try and flip it yet; you got to let that shit get toasted. After 3 to 4 minutes, the bottom sides should look golden brown. Flip them over and repeat. When the tofu is cooked all over, you can cut it into strips, triangles, or smaller squares, whateverthefuck you like in your food. It's easier to keep that shit bigger for flipping purposes.\
-\
-\
-How to Prep Tofu\
-from \ul Thug Kitchen\
-\ulnone \
-1. Grab some extra firm tofu, drain it, wrap it in some paper towels or a clean dish cloth, put it between two plates, and put some weight on it like a can of beans. This presses out all the water it's packed in and makes room for flavor. This should take about 30 minutes to 1 hour. So you can grab a nap or something.\
-\
-2. Next, mix together your marinade in a shallow, rimmed dish like a pie plate - you know, something where all the tofu can marinate in one layer. \
-\
-3. Cut the tofu into width-wise planks no thicker than 1/4 inch. You should get about 12 pieces per brick of tofu. Throw that in the marinade, make sure all the pieces are covered, and let that sit in the fridge for at least 2 hours and up to 8. Stir it around every now and then if you can remember.}
+-----------------
+Vegetable Pad Thai with Dry-Fried Tofu
+from Thug Kitchen
+
+Sauce
+1/4 cup lime juice
+1/4 cup soy sauce or tamari
+3 tablespoons water
+3 tablespoons brown sugar
+3 tablespoons tomato paste
+3 tablespoons rice vinegar
+
+Noodles
+14 oz rice noodles
+1 medium crown of broccoli
+1/3 cup sliced shallots or a big yellow onion
+4 cloves garlic, minced
+1 cup sliced green onions
+1/4 cup roughly chopped cilantro
+2 tsp neutral-tasting oil
+Dry-Fried Tofu (see bottom of recipe)
+
+Toppings
+2 cups thinly sliced cabbage
+1 carrot, thinly sliced into matchsticks
+1 cup bean sprouts
+chopped peanuts
+lime wedges
+
+1. Mix together all the stuff for the sauce in a medium glass
+
+2. Cook your noodles according to the package directions. Rinse with cold water. Chop up the broccoli into pieces no bigger than a quarter and get all the rest of your veggies and herbs on lock. Get ready to stir-fry.
+
+3. Now that you've got everything lined up, heat the oil over medium heat in a big skillet or wok. When the pan is hot, add the shallots and stir-fry those fuckers until they start to char around the edges, about 2 minutes. Add the broccoli and keep that shit up for another 2 minutes until the broccoli is kinda charred but isn't limp as fuck. Now add the garlic and fry it up for another 30 seconds. Gently add the noodles and 1/3 cup of the sauce and toss that shit all around to make sure everything is covered. Keep stirring and fold in the tofu. Cook of ran other 30 seconds to a minute to make sure the sauce is nice and absorbed. Keep adding more tablespoons of sauce until it is exactly how you like it. Turn off the heat and fold in the green onions and cilantro.
+
+4. Serve this mount of deliciousness right away piled high on a plate next to the cabbages, carrots, bean sprouts, and topped with the peanuts. Have some lime wedges shoved in there and squeeze that shit over it before you dig in.
+
+
+
+Dry-Fried Tofu
+from Thug Kitchen
+
+1 block extra-firm tofu, pressed for at least 30 minutes (see below)
+
+1. Cut the tofu vertically into planks about 1/4 inch thick and then cut those planks in half widthwise. You should end up with around 20 squarish pieces.
+
+2. Preheat a large wok or cast-iron skillet over medium heat. Once the pan is hot, add the tofu in a single layer. You might have to do this in two batches depending on the size of your pan. You'll want the tofu to sizzle once it hits the pan so if that shit is quiet, turn up the heat a little.
+
+3. Sprinkle a pinch of salt over the tofu and start gently pressing down on the tofu with your spatula. You'll hear the steam escape from under the tofu as you do this. It sounds like screams, but keep the fuck on. Don't try and flip it yet; you got to let that shit get toasted. After 3 to 4 minutes, the bottom sides should look golden brown. Flip them over and repeat. When the tofu is cooked all over, you can cut it into strips, triangles, or smaller squares, whateverthefuck you like in your food. It's easier to keep that shit bigger for flipping purposes.
+
+
+How to Prep Tofu
+from Thug Kitchen
+
+1. Grab some extra firm tofu, drain it, wrap it in some paper towels or a clean dish cloth, put it between two plates, and put some weight on it like a can of beans. This presses out all the water it's packed in and makes room for flavor. This should take about 30 minutes to 1 hour. So you can grab a nap or something.
+
+2. Next, mix together your marinade in a shallow, rimmed dish like a pie plate - you know, something where all the tofu can marinate in one layer. 
+
+3. Cut the tofu into width-wise planks no thicker than 1/4 inch. You should get about 12 pieces per brick of tofu. Throw that in the marinade, make sure all the pieces are covered, and let that sit in the fridge for at least 2 hours and up to 8. Stir it around every now and then if you can remember.
