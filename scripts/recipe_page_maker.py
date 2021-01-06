@@ -3,7 +3,7 @@
 # Make the index.html page containing
 # the list of recipes
 
-from os import listdir
+import os
 
 # Make sure to run this script from the base directory
 # /Users/Mike/workspace/mike so the relative path below works
@@ -18,8 +18,10 @@ LINK_LINE = '<li class="recipe"> <a href="{}"> {} </a> </li>'
 
 # Build the links using the .rtf resource names in the /recipes/
 # directory since the .rtf extension indicates a recipe
-recipes = listdir(RECIPE_PATH)
-links = sorted([LINK_LINE.format(x, x) for x in recipes
+recipes = os.listdir(RECIPE_PATH)
+links = sorted([LINK_LINE.format(x,
+                                 os.path.splitext(x)[0])
+                for x in recipes
                 if x.endswith('rtf') or x.endswith('txt')])
 
 # Open and read the template file
