@@ -1,3 +1,6 @@
+Read in 2022
+N, 3/5, Snow Crash, Neal Stephenson
+
 Read in 2019
 N, 5/5, Countdown to Zero Day, Kim Zetter
 
@@ -139,3 +142,4 @@ Quit While Reading
 N, 0/5, The Tipping Point, Malcolm Gladwell
 N, 3/5, Undaunted Courage, Stephen Ambrose
 N, 0/5, Republican Gomorrah, Max Blumenthal
+N, 0/5, Cryptonomicon, Neal Stephenson
