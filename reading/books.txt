@@ -1,7 +1,11 @@
 Read in 2022
-N, 4/5, Desert Solitaire, Edward Abbey
-N, 4/5, Last Days of the Mighty Mekong, Brian Eyler
 N, 3/5, Snow Crash, Neal Stephenson
+N, 4/5, Last Days of the Mighty Mekong, Brian Eyler
+N, 4/5, Desert Solitaire, Edward Abbey
+N, 4/5, Memoirs: A Twentieth Century Journey in Science and Politics, Edward Teller and Judith Schoolery
+
+Read in 2021
+N, 5/5, Lise Meitner: A Life in Physics, Ruth Lewin Sime
 
 Read in 2019
 N, 5/5, Countdown to Zero Day, Kim Zetter
