@@ -3,6 +3,7 @@ N, 3/5, Men and Decisions, Lewis Strauss
 
 Read in 2022
 N, 5/5, Anna Karenina, Leo Tolstoy
+N, 4/5, Bad Blood, John Carreyrou
 N, 2/5, Adventures of a Mathematician, Stanislaw Ulam
 N, 3/5, The Handmaid's Tale, Margaret Atwood
 N, 5/5, The Brothers Karamazov, Fyodor Dostoevsky
