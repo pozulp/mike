@@ -55,12 +55,28 @@
                       <div class="panel panel-default">
                         <div class="panel-heading">
                           <div class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2025">
+                              Read in 2025
+                            </a>
+                          </div>
+                        </div>
+                        <div id="collapse2025" class="panel-collapse collapse in">
+                          <div class="panel-body">
+                              <div class="list-group">
+                                  READ IN 2025
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="panel panel-default">
+                        <div class="panel-heading">
+                          <div class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapse2024">
                               Read in 2024
                             </a>
                           </div>
                         </div>
-                        <div id="collapse2024" class="panel-collapse collapse in">
+                        <div id="collapse2024" class="panel-collapse collapse">
                           <div class="panel-body">
                               <div class="list-group">
                                   READ IN 2024
