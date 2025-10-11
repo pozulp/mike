@@ -1,5 +1,8 @@
 Read in 2025
 N, 4/5, Resurrection, Leo Tolstoy
+N, 3/5, The Library Book, Susan Orlean
+N, 3/5, The Coddling of the American Mind, Greg Lukianoff and Jonathan Haidt
+N, 4/5, Marxism: Philosophy and Economics, Thomas Sowell
 
 Read in 2024
 N, 4/5, The American Lab, C. Bruce Tarter
